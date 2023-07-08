@@ -11,7 +11,7 @@ export default function Home() {
       <div className='body'>
         <NavBar/> 
         <div className="Sliderr">
-          
+                ugur11231231231
               aaaa
         </div>
         
