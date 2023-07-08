@@ -12,7 +12,7 @@ export default function Home() {
         <NavBar/> 
         <div className="Sliderr">
           
-
+              aaaa
         </div>
         
           
