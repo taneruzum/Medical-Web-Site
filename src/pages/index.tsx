@@ -3,13 +3,16 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/navigation';
 import NavBar from '../app/Components/NavBar/NavBar';
 import "../pages/index.css"
+import BackToTopButton from '../app/Components/BackToTopButton/BackToTopButton';
 
 
 export default function Home() {
+
   return (
     <div>
       <div className='mainPageContainer'>
         <NavBar />
+        <BackToTopButton />
         <div className='sliderContainer'>
           <Swiper
             spaceBetween={50}
@@ -32,7 +35,6 @@ export default function Home() {
         <div style={{ width: "100%", textAlign: "center", marginTop: "2rem", marginBottom: "2rem", height: "50px" }}>
           deneme4
         </div>
-
       </div>
     </div>
 
