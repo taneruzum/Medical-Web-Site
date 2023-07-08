@@ -3,6 +3,8 @@ import {Navigation } from 'swiper/modules';
 import 'swiper/css/navigation';
 import NavBar from '../app/Components/NavBar/NavBar';
 import "../pages/index.css"
+import Footer from '@/app/Components/Footer/Footer';
+
 
 
 export default function Home() {
@@ -17,7 +19,13 @@ export default function Home() {
         
           
         
-    
+
+
+
+      <footer>
+        <Footer></Footer>
+      </footer>
+      
       </div>
         
         

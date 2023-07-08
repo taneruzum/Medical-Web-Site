@@ -69,6 +69,8 @@
 .allInformations a{
     font-weight: normal;
     font-size: 15px;
+    color: white;
+    text-decoration: none;
     
 }
 
@@ -119,28 +121,27 @@
     justify-content: space-evenly;
     max-width: 1000px;
     width: 700px;
-    padding: 1rem;
+    padding: 0.5rem;
     
 }
-li{
+.content li{
     list-style: none;
     transition:all 0.2s ease-in-out;
     padding: 0.4rem;
     
 }
-a{  display: flex;
+.content a{  display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 18px;
     color: white;
     
 }
-li:hover{
+.content li:hover{
     transform: scale(1.3);
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 7rem;
     
     
@@ -188,7 +189,15 @@ li:hover{
         justify-content: flex-end;
         width: 100%;
     }
+    .content{
+        column-gap: 0.2rem;
+    }
+    .content li:hover{
+        transform: scale(1.2);
+        background-color: rgba(0, 0, 0, 0);  
+    }
     .acmedCareLogo{
+        width: 70px;
         bottom: 10px;
         scale: 1.2;
         
