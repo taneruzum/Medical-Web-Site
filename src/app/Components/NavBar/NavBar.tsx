@@ -2,24 +2,25 @@ import React, { useEffect, useRef } from 'react';
 import "./navBar.css"
 
 const NavBar = () => {
-  const logoRef = useRef<HTMLImageElement | null>(null);
+  //  aşşağıdan logoRef aç
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      if (logoRef.current) {
-        logoRef.current.style.transform = "scale(1.1)";
-        setTimeout(() => {
-          if (logoRef.current) {
-            logoRef.current.style.transform = "";
-          }
-        }, 1000);
-      }
-    }, 2000);
+  // const logoRef = useRef<HTMLImageElement | null>(null);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     if (logoRef.current) {
+  //       logoRef.current.style.transform = "scale(1.1)";
+  //       setTimeout(() => {
+  //         if (logoRef.current) {
+  //           logoRef.current.style.transform = "";
+  //         }
+  //       }, 1000);
+  //     }
+  //   }, 2000);
 
-    return () => {
-      clearInterval(interval);
-    };
-  }, []);
+  //   return () => {
+  //     clearInterval(interval);
+  //   };
+  // }, []);
 
   return (
     <div className='navbarContainer'>
@@ -43,7 +44,7 @@ const NavBar = () => {
       <nav className="navBar">
         {/* <div className="acmedCareLogo" ref={logoRef}> */}
         <div className="acmedCareLogo">
-          <img ref={logoRef} src="/images/logo2.png" alt="logo" />
+          <img /*ref={logoRef}*/ src="/images/logo2.png" alt="logo" />
         </div>
         <ul className="content">
           <li><a href=""><span className="material-symbols-outlined">home</span>Anasayfa</a></li>

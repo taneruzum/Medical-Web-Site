@@ -20,10 +20,10 @@ const Footer= () => {
                         <div className="linkler">
                             <ul>
                                 <h3>Linkler</h3>
-                                <li className="home">Anasayfa</li>
-                                <li className="services">Hizmetlerimiz</li>
-                                <li className="about">Hakkımızda</li>
-                                <li className="communication">İletişim</li>
+                                <li className="fhome">Anasayfa</li>
+                                <li className="fservices">Hizmetlerimiz</li>
+                                <li className="fabout">Hakkımızda</li>
+                                <li className="fcommunication">İletişim</li>
                             </ul>
                         </div>
                         

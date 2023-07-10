@@ -4,16 +4,161 @@
     box-sizing: border-box;
 }
 
-.mainPageContainer {
+html,
+body {
     width: 100%;
-    height: 100vh;
-    background-color: aliceblue;
-    position: relative;
-}
-.swiper-slide{
-    width: 100%;
+
 }
 
-.swiper-slide img {
+.mainPageContainer {
     width: 100%;
+    height: 100%;
+}
+
+.section {
+    position: relative;
+    margin-top: 140px;
+}
+
+.sectionContainer {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.sectionContainer .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.insideRow1,
+.insideRow2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 0 50px;
+}
+
+.sectionImg {
+    width: 100%;
+    height: 100%;
+    background-color: #d8d8d8;
+}
+
+.title-wrap {
+    position: relative;
+    text-align: left;
+    margin-top: 15px;
+    display: block;
+}
+
+.h-sub {
+    color: #494949;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 17px;
+    line-height: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.h-sub2 {
+    line-height: 1em;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.theme-color {
+    color: #49b0c1;
+}
+
+.meetParagraph {
+    margin-top: 34px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/* .firstParagraph{
+
+} */
+.secondParagraph {
+    text-align: left;
+}
+
+.secondParagraph p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.servicesContainer {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.services {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    padding: 65px;
+    justify-content: space-between;
+
+}
+
+.servicesItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: .5rem;
+    border: 1px solid #ccc;
+    background-color: #494949;
+    color: #fff;
+    fill: #fff;
+    padding: 1.5rem 2.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.servicesItem:hover {
+    color: #494949;
+    fill: #494949;
+    background-color: #fff;
+    transition: all .5s ease;
+}
+
+.main-div {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    background-color: #e9e9e9;
+    cursor: pointer;
+}
+
+.additional-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+}
+
+.main-div:hover .additional-content {
+    display: block;
 }
