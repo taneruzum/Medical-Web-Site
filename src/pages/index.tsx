@@ -4,6 +4,8 @@ import 'swiper/css/navigation';
 import NavBar from '../app/Components/NavBar/NavBar';
 import "../pages/index.css"
 import Footer from '@/app/Components/Footer/Footer';
+import Form from '@/app/Components/Form/Form';
+import 'swiper/css';
 
 import BackToTopButton from '../app/Components/BackToTopButton/BackToTopButton';
 
@@ -23,22 +25,18 @@ export default function Home() {
             <SwiperSlide>
               <img src="/images/photo1.webp" alt="" />
             </SwiperSlide>
+            <SwiperSlide>
+              <img src="/images/photo1.webp" alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/images/photo1.webp" alt="" />
+            </SwiperSlide>
+            
           </Swiper>
         </div>
-        <div style={{ width: "100%", textAlign: "center", marginTop: "2rem", marginBottom: "2rem", height: "50px" }}>
-          deneme
-        </div>
-        <div style={{ width: "100%", textAlign: "center", marginTop: "2rem", marginBottom: "2rem", height: "50px" }}>
-          deneme2
-        </div>
-        <div style={{ width: "100%", textAlign: "center", marginTop: "2rem", marginBottom: "2rem", height: "50px" }}>
-          deneme3
-        </div>
-        <div style={{ width: "100%", textAlign: "center", marginTop: "2rem", marginBottom: "2rem", height: "50px" }}>
-          deneme4
-        </div>
         
-          
+        
+          <Form></Form>
         <footer>
           <Footer></Footer>
         </footer>
