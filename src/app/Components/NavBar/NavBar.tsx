@@ -26,7 +26,8 @@ const NavBar = () => {
   const scrollToServices = () => {
     const servicesSection = document.getElementById('servicesSection');
     if (servicesSection) {
-      const topOffset = servicesSection.offsetTop-180;
+      const navbarHeight = 180
+      const topOffset = servicesSection.offsetTop - navbarHeight;
       window.scrollTo({ top: topOffset, behavior: 'smooth' });
     }
   };
