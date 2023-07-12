@@ -22,6 +22,16 @@ const NavBar = () => {
   //   };
   // }, []);
 
+
+  const scrollToServices = () => {
+    const servicesSection = document.getElementById('servicesSection');
+    if (servicesSection) {
+      const navbarHeight = 180
+      const topOffset = servicesSection.offsetTop - navbarHeight;
+      window.scrollTo({ top: topOffset, behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className='navbarContainer'>
 
@@ -48,7 +58,7 @@ const NavBar = () => {
         </div>
         <ul className="content">
           <li><a href=""><span className="material-symbols-outlined">home</span>Anasayfa</a></li>
-          <li><a href="">Hizmetlerimiz</a></li>
+          <li><a onClick={scrollToServices}>Hizmetlerimiz</a></li>
           <li><a href="">Hakkımızda</a></li>
           <li><a href="">İletişim</a></li>
         </ul>
