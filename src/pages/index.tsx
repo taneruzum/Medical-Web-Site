@@ -98,40 +98,42 @@ export default function Home() {
       <BackToTopButton />
       <SwiperComponent />
       <div className='globalContentContainer'>
-        <div className='section'>
-          <div className='sectionContainer'>
-            <div className='row'>
-              <div className='insideRow1 col-lg-6 d-none d-lg-block'>
-                <img className='sectionImg' />
-              </div>
-              <div className='insideRow2 col-lg-6'>
-                <div className='title-wrap'>
-                  <div className='h-sub'>
-                    Welcome to our plastic surgeon clinic
-                  </div>
-                  <h2 className='h-sub2'>
-                    Meet
-                    <span className='theme-color'> Dr.Anderson</span>
-                  </h2>
-                </div>
-                <div className='meetParagraph'>
-                  <div className='firstParagraph'></div>
-                  <div className='secondParagraph'>
-                    <div className=''>
-                      <p>We are pleased that you have chosen to explore what we have to offer: aesthetic and reconstructive services that are provided by fellowship-trained plastic surgeons, in a safe and secure environment. Whether you desire minimally invasive facial rejuvenation or perforator flap breast reconstruction, we are committed to providing the highest quality experience, focusing on the unique needs of the plastic surgery patient.</p>
-                      <p>Plastic surgery provides evaluation and treatment for adult and pediatric patients who are candidates for reconstructive or aesthetic surgery</p>
-                      <p>We are pleasedt we have toonstructive services that are provided by fellowship-trained plastic surgeons, in a safe and secure environment. Whether you desire minimally invasive facial rejuvenation or perforator flap breast reconstruction, we are committed to providing the highest quality experience, focusing on the unique</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div className="informationBox">
+                <figure className='figure'>
+                    <img src="/images/photo2.jpg" alt="Remin kaynağı yok" />
+                </figure>
+                <section className='section'>
+                    <header><h1>Evde Sağlık Hizmeti</h1>
+                    <h2>Evde Sağlık Hizmeti Nedir ?</h2>
+                    </header>
+                    <article>
+                        <p> Evde sağlık hizmeti, sağlık profesyonellerinin hasta ve hasta yakınlarının evinde sağlık hizmeti sunmasıdır. Bu hizmet, hasta konforunu ve bakım kalitesini artırmayı hedeflerken, hastanın hastanede yatması veya klinik ziyaretleri gerektiren durumları azaltmayı amaçlar.</p>
+                            <section className='middleText'>      
+                                Evde sağlık hizmeti, bir dizi sağlık hizmeti sunabilir, örneğin:
+
+                                <p>1. Tıbbi Bakım: Evde sağlık hizmeti, yaraların bakımı, ilaç yönetimi, enjeksiyonlar, tansiyon ölçümü, kan testleri gibi tıbbi işlemleri içerebilir.</p>
+
+                                <p>2. Rehabilitasyon: Evde sağlık hizmeti, fizyoterapi, konuşma terapisi, iş terapisi gibi rehabilitasyon hizmetlerini evde sunabilir.</p>
+
+                                <p>3. Hasta Eğitimi: Evde sağlık hizmeti sağlayıcıları, hastalara ve hasta bakım verenlerine hastalık yönetimi, ilaç kullanımı, beslenme konularında eğitim sağlayabilir.</p>
+
+                                <p>4. Psikolojik Destek: Evde sağlık hizmeti, psikolojik destek hizmetleri sunarak hastaların ve hasta yakınlarının duygusal ve ruhsal ihtiyaçlarına da yanıt verebilir.</p>
+                            </section>  
+                            <p>Evde sağlık hizmeti, yaşlılar, kronik hastalar, sürekli bakıma ihtiyaç duyanlar, rehabilitasyon sürecinde olanlar veya evde bakımı tercih eden herhangi bir kişi için faydalı olabilir. Bu hizmet, hastaların kendi evlerinde kalırken ihtiyaç duydukları sağlık hizmetlerine erişimlerini kolaylaştırır ve hastaneye gitme zorunluluğunu azaltır.</p>
+                            
+
+                        
+                    </article>
+                    
+
+
+                </section>
+          
             </div>
-          </div>
-        </div>
         <div className='servicesContainer' id='servicesSection'>
-          <h1>
-            Hizmetlerimiz
-          </h1>
+          <h2>
+            Evde Sağlık Hizmetlerimiz
+          </h2>
           <div className='services'>
             {
               services.map((service, index) => (
