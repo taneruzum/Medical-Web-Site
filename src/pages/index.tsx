@@ -5,7 +5,6 @@ import 'swiper/css/navigation';
 import NavBar from '../app/Components/NavBar/NavBar';
 import "../pages/index.css"
 import Footer from '@/app/Components/Footer/Footer';
-import Form from '@/app/Components/Form/Form';
 import 'swiper/css';
 import BackToTopButton from '../app/Components/BackToTopButton/BackToTopButton';
 import SwiperComponent from '../app/Components/SwiperComponent/SwiperComponent';
@@ -154,7 +153,6 @@ export default function Home() {
           </Swiper> */}
 
 
-      {/* <Form></Form> */}
         <footer>
           <Footer></Footer>
         </footer>
