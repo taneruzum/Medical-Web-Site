@@ -100,7 +100,7 @@ export default function Home() {
       <div className='globalContentContainer'>
             <div className="informationBox">
                 <figure className='figure'>
-                    <img src="/images/photo2.jpg" alt="Remin kaynağı yok" />
+                    <img src="/images/photomain.jpg" alt="Remin kaynağı yok" />
                 </figure>
                 <section className='section'>
                     <header><h1>Evde Sağlık Hizmeti</h1>
@@ -120,6 +120,7 @@ export default function Home() {
                                 <p>4. Psikolojik Destek: Evde sağlık hizmeti, psikolojik destek hizmetleri sunarak hastaların ve hasta yakınlarının duygusal ve ruhsal ihtiyaçlarına da yanıt verebilir.</p>
                             </section>  
                             <p>Evde sağlık hizmeti, yaşlılar, kronik hastalar, sürekli bakıma ihtiyaç duyanlar, rehabilitasyon sürecinde olanlar veya evde bakımı tercih eden herhangi bir kişi için faydalı olabilir. Bu hizmet, hastaların kendi evlerinde kalırken ihtiyaç duydukları sağlık hizmetlerine erişimlerini kolaylaştırır ve hastaneye gitme zorunluluğunu azaltır.</p>
+                            <p>Ayrıca evde sağlık hizmeti, hasta konforunu ön planda tutarken aynı zamanda hasta ve hasta yakınları arasında güçlü bir iletişim ve güven ilişkisi oluşturmayı amaçlar. Bu sayede hastalar, tedavi süreciyle ilgili daha iyi bilgilendirilir ve kendi sağlık durumlarına aktif bir şekilde katılım sağlarlar.</p>
                             
 
                         

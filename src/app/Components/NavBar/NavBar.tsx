@@ -26,8 +26,7 @@ const NavBar = () => {
   const scrollToServices = () => {
     const servicesSection = document.getElementById('servicesSection');
     if (servicesSection) {
-      const navbarHeight = 180
-      const topOffset = servicesSection.offsetTop - navbarHeight;
+      const topOffset = servicesSection.offsetTop;
       window.scrollTo({ top: topOffset, behavior: 'smooth' });
     }
   };
@@ -45,7 +44,6 @@ const NavBar = () => {
             <div className="email"><a href=""><span>example@gmail.com</span></a></div>
           </div>
           <div className="socialMedias">
-            <div className="facebook"><a href=""><img src="/images/facebook.png" alt="facebook" /></a></div>
             <div className="instagram"><a href=""><img src="/images/instagram.png" alt="instagram" /></a></div>
           </div>
         </div>

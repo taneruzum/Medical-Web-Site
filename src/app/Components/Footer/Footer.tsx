@@ -35,7 +35,7 @@ const Footer= () => {
                     </div>
                     <div className="footerBot">
                         <div className="footer-content">
-                            <p>© 2023 AcmedCare. Tüm hakları saklıdır. - Evde Sağlık Hizmeti - </p>
+                            <p>Telif Hakkı © 2023 AcmedCare. Tüm hakları saklıdır. - Evde Sağlık Hizmeti - </p>
                         </div>
                         
                     </div>
