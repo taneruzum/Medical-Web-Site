@@ -148,6 +148,11 @@
     padding: 0.4rem;
 
 }
+.verticalLine{
+    width: 2px;
+    height: 25px;
+    background-color: aliceblue;
+}
 .content a{  
     display: flex;
     align-items: center;
@@ -161,15 +166,15 @@
 }
 .content li:hover{
     transform: scale(1.3);
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 7rem;
+    /* background-color: rgba(0, 0, 0, 0.1); 
+    border-radius: 7rem; */
 
 
 }
 
 .material-symbols-outlined {
     scale: 1.5;
-    margin-right: 5px;
+    margin-right: 7px;
     height: 30px;
     font-variation-settings:
         'FILL' 1,

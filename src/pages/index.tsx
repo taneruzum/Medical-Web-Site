@@ -107,19 +107,19 @@ export default function Home() {
                     <h2>Evde Sağlık Hizmeti Nedir ?</h2>
                     </header>
                     <article>
-                        <p> Evde sağlık hizmeti, sağlık profesyonellerinin hasta ve hasta yakınlarının evinde sağlık hizmeti sunmasıdır. Bu hizmet, hasta konforunu ve bakım kalitesini artırmayı hedeflerken, hastanın hastanede yatması veya klinik ziyaretleri gerektiren durumları azaltmayı amaçlar.</p>
+                        <p> <strong>Evde sağlık hizmeti</strong>, sağlık profesyonellerinin hasta ve hasta yakınlarının evinde sağlık hizmeti sunmasıdır. Bu hizmet, hasta konforunu ve bakım kalitesini artırmayı hedeflerken, hastanın hastanede yatması veya klinik ziyaretleri gerektiren durumları azaltmayı amaçlar.</p>
                             <section className='middleText'>      
-                                Evde sağlık hizmeti, bir dizi sağlık hizmeti sunabilir, örneğin:
+                                <strong>Evde sağlık hizmeti</strong>, bir dizi sağlık hizmeti sunabilir, örneğin:
 
-                                <p>1. Tıbbi Bakım: Evde sağlık hizmeti, yaraların bakımı, ilaç yönetimi, enjeksiyonlar, tansiyon ölçümü, kan testleri gibi tıbbi işlemleri içerebilir.</p>
+                                <p> <b>1. Tıbbi Bakım:</b>  Evde sağlık hizmeti, yaraların bakımı, ilaç yönetimi, enjeksiyonlar, tansiyon ölçümü, kan testleri gibi tıbbi işlemleri içerebilir.</p>
 
-                                <p>2. Rehabilitasyon: Evde sağlık hizmeti, fizyoterapi, konuşma terapisi, iş terapisi gibi rehabilitasyon hizmetlerini evde sunabilir.</p>
+                                <p><b>2. Rehabilitasyon:</b>  Evde sağlık hizmeti, fizyoterapi, konuşma terapisi, iş terapisi gibi rehabilitasyon hizmetlerini evde sunabilir.</p>
 
-                                <p>3. Hasta Eğitimi: Evde sağlık hizmeti sağlayıcıları, hastalara ve hasta bakım verenlerine hastalık yönetimi, ilaç kullanımı, beslenme konularında eğitim sağlayabilir.</p>
+                                <p><b>3. Hasta Eğitimi:</b>  Evde sağlık hizmeti sağlayıcıları, hastalara ve hasta bakım verenlerine hastalık yönetimi, ilaç kullanımı, beslenme konularında eğitim sağlayabilir.</p>
 
-                                <p>4. Psikolojik Destek: Evde sağlık hizmeti, psikolojik destek hizmetleri sunarak hastaların ve hasta yakınlarının duygusal ve ruhsal ihtiyaçlarına da yanıt verebilir.</p>
+                                <p><b>4. Psikolojik Destek:</b>  Evde sağlık hizmeti, psikolojik destek hizmetleri sunarak hastaların ve hasta yakınlarının duygusal ve ruhsal ihtiyaçlarına da yanıt verebilir.</p>
                             </section>  
-                            <p>Evde sağlık hizmeti, yaşlılar, kronik hastalar, sürekli bakıma ihtiyaç duyanlar, rehabilitasyon sürecinde olanlar veya evde bakımı tercih eden herhangi bir kişi için faydalı olabilir. Bu hizmet, hastaların kendi evlerinde kalırken ihtiyaç duydukları sağlık hizmetlerine erişimlerini kolaylaştırır ve hastaneye gitme zorunluluğunu azaltır.</p>
+                            <p> <strong>Evde sağlık hizmeti</strong>, yaşlılar, kronik hastalar, sürekli bakıma ihtiyaç duyanlar, rehabilitasyon sürecinde olanlar veya evde bakımı tercih eden herhangi bir kişi için faydalı olabilir. Bu hizmet, hastaların kendi evlerinde kalırken ihtiyaç duydukları sağlık hizmetlerine erişimlerini kolaylaştırır ve hastaneye gitme zorunluluğunu azaltır.</p>
                             <p>Ayrıca evde sağlık hizmeti, hasta konforunu ön planda tutarken aynı zamanda hasta ve hasta yakınları arasında güçlü bir iletişim ve güven ilişkisi oluşturmayı amaçlar. Bu sayede hastalar, tedavi süreciyle ilgili daha iyi bilgilendirilir ve kendi sağlık durumlarına aktif bir şekilde katılım sağlarlar.</p>
                             
 

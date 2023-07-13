@@ -56,8 +56,11 @@ const NavBar = () => {
         </div>
         <ul className="content">
           <li><a href=""><span className="material-symbols-outlined">home</span>Anasayfa</a></li>
+          <div className="verticalLine"></div>
           <li><a onClick={scrollToServices}>Hizmetlerimiz</a></li>
+          <div className="verticalLine"></div>
           <li><a href="">Hakkımızda</a></li>
+          <div className="verticalLine"></div>
           <li><a href="">İletişim</a></li>
         </ul>
       </nav>
