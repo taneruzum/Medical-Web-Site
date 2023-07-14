@@ -8,6 +8,7 @@ import Footer from '@/app/Components/Footer/Footer';
 import 'swiper/css';
 import BackToTopButton from '../app/Components/BackToTopButton/BackToTopButton';
 import SwiperComponent from '../app/Components/SwiperComponent/SwiperComponent';
+import Communication from '@/app/Components/commCart/Communication';
 
 const services = [
   {
@@ -94,43 +95,44 @@ export default function Home() {
   return (
 
     <div className='mainPageContainer'>
+      <Communication />
       <NavBar />
       <BackToTopButton />
       <SwiperComponent />
       <div className='globalContentContainer'>
-            <div className="informationBox">
-                <figure className='figure'>
-                    <img src="/images/photomain.jpg" alt="Remin kaynağı yok" />
-                </figure>
-                <section className='section'>
-                    <header><h1>Evde Sağlık Hizmeti</h1>
-                    <h2>Evde Sağlık Hizmeti Nedir ?</h2>
-                    </header>
-                    <article>
-                        <p> <strong>Evde sağlık hizmeti</strong>, sağlık profesyonellerinin hasta ve hasta yakınlarının evinde sağlık hizmeti sunmasıdır. Bu hizmet, hasta konforunu ve bakım kalitesini artırmayı hedeflerken, hastanın hastanede yatması veya klinik ziyaretleri gerektiren durumları azaltmayı amaçlar.</p>
-                            <section className='middleText'>      
-                                <strong>Evde sağlık hizmeti</strong>, bir dizi sağlık hizmeti sunabilir, örneğin:
+        <div className="informationBox">
+          <figure className='figure'>
+            <img src="/images/photomain.jpg" alt="Remin kaynağı yok" />
+          </figure>
+          <section className='section'>
+            <header><h1>Evde Sağlık Hizmeti</h1>
+              <h2>Evde Sağlık Hizmeti Nedir ?</h2>
+            </header>
+            <article>
+              <p> <strong>Evde sağlık hizmeti</strong>, sağlık profesyonellerinin hasta ve hasta yakınlarının evinde sağlık hizmeti sunmasıdır. Bu hizmet, hasta konforunu ve bakım kalitesini artırmayı hedeflerken, hastanın hastanede yatması veya klinik ziyaretleri gerektiren durumları azaltmayı amaçlar.</p>
+              <section className='middleText'>
+                <strong>Evde sağlık hizmeti</strong>, bir dizi sağlık hizmeti sunabilir, örneğin:
 
-                                <p> <b>1. Tıbbi Bakım:</b>  Evde sağlık hizmeti, yaraların bakımı, ilaç yönetimi, enjeksiyonlar, tansiyon ölçümü, kan testleri gibi tıbbi işlemleri içerebilir.</p>
+                <p> <b>1. Tıbbi Bakım:</b>  Evde sağlık hizmeti, yaraların bakımı, ilaç yönetimi, enjeksiyonlar, tansiyon ölçümü, kan testleri gibi tıbbi işlemleri içerebilir.</p>
 
-                                <p><b>2. Rehabilitasyon:</b>  Evde sağlık hizmeti, fizyoterapi, konuşma terapisi, iş terapisi gibi rehabilitasyon hizmetlerini evde sunabilir.</p>
+                <p><b>2. Rehabilitasyon:</b>  Evde sağlık hizmeti, fizyoterapi, konuşma terapisi, iş terapisi gibi rehabilitasyon hizmetlerini evde sunabilir.</p>
 
-                                <p><b>3. Hasta Eğitimi:</b>  Evde sağlık hizmeti sağlayıcıları, hastalara ve hasta bakım verenlerine hastalık yönetimi, ilaç kullanımı, beslenme konularında eğitim sağlayabilir.</p>
+                <p><b>3. Hasta Eğitimi:</b>  Evde sağlık hizmeti sağlayıcıları, hastalara ve hasta bakım verenlerine hastalık yönetimi, ilaç kullanımı, beslenme konularında eğitim sağlayabilir.</p>
 
-                                <p><b>4. Psikolojik Destek:</b>  Evde sağlık hizmeti, psikolojik destek hizmetleri sunarak hastaların ve hasta yakınlarının duygusal ve ruhsal ihtiyaçlarına da yanıt verebilir.</p>
-                            </section>  
-                            <p> <strong>Evde sağlık hizmeti</strong>, yaşlılar, kronik hastalar, sürekli bakıma ihtiyaç duyanlar, rehabilitasyon sürecinde olanlar veya evde bakımı tercih eden herhangi bir kişi için faydalı olabilir. Bu hizmet, hastaların kendi evlerinde kalırken ihtiyaç duydukları sağlık hizmetlerine erişimlerini kolaylaştırır ve hastaneye gitme zorunluluğunu azaltır.</p>
-                            <p>Ayrıca evde sağlık hizmeti, hasta konforunu ön planda tutarken aynı zamanda hasta ve hasta yakınları arasında güçlü bir iletişim ve güven ilişkisi oluşturmayı amaçlar. Bu sayede hastalar, tedavi süreciyle ilgili daha iyi bilgilendirilir ve kendi sağlık durumlarına aktif bir şekilde katılım sağlarlar.</p>
-                            
-
-                        
-                    </article>
-                    
+                <p><b>4. Psikolojik Destek:</b>  Evde sağlık hizmeti, psikolojik destek hizmetleri sunarak hastaların ve hasta yakınlarının duygusal ve ruhsal ihtiyaçlarına da yanıt verebilir.</p>
+              </section>
+              <p> <strong>Evde sağlık hizmeti</strong>, yaşlılar, kronik hastalar, sürekli bakıma ihtiyaç duyanlar, rehabilitasyon sürecinde olanlar veya evde bakımı tercih eden herhangi bir kişi için faydalı olabilir. Bu hizmet, hastaların kendi evlerinde kalırken ihtiyaç duydukları sağlık hizmetlerine erişimlerini kolaylaştırır ve hastaneye gitme zorunluluğunu azaltır.</p>
+              <p>Ayrıca evde sağlık hizmeti, hasta konforunu ön planda tutarken aynı zamanda hasta ve hasta yakınları arasında güçlü bir iletişim ve güven ilişkisi oluşturmayı amaçlar. Bu sayede hastalar, tedavi süreciyle ilgili daha iyi bilgilendirilir ve kendi sağlık durumlarına aktif bir şekilde katılım sağlarlar.</p>
 
 
-                </section>
-          
-            </div>
+
+            </article>
+
+
+
+          </section>
+
+        </div>
         <div className='servicesContainer' id='servicesSection'>
           <h2>
             Evde Sağlık Hizmetlerimiz
@@ -190,9 +192,9 @@ export default function Home() {
         deneme
       </div> */}
 
-        <footer>
-          <Footer></Footer>
-        </footer>
+      <footer>
+        <Footer></Footer>
+      </footer>
 
     </div>
   )
