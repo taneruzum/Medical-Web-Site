@@ -39,9 +39,9 @@ const NavBar = () => {
       <div className="topContent">
         <div className="allInformations">
           <div className="contact">
-            <div className="phone"><a href=""><span>+90 534 872 57 35</span></a></div>
-            <div className="location"><a href=""><span>İstanbul/Ataşehir</span></a></div>
-            <div className="email"><a href=""><span>example@gmail.com</span></a></div>
+            <div className="phone"><a href=""><span>(+90) 534 872 57 35</span></a></div>
+            <div className="location"><a href=""><span>İstanbul - Ataşehir </span></a></div>
+            {/* <div className="email"><a href=""><span>example@gmail.com</span></a></div> */}
           </div>
           <div className="socialMedias">
             <div className="instagram"><a href=""><img src="/images/instagram.png" alt="instagram" /></a></div>

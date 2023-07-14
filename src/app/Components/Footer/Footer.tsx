@@ -8,6 +8,12 @@ const Footer= () => {
 
                     <div className="footerTop">
                         <div className="leftBox">
+                            <div className="aboutus">
+                                <ul>
+                                    <h3>Hakkımızda</h3>
+                                    <li>AcmeDCare olarak, evde sağlık hizmetleri konusunda sektörde öncü olmayı hedeflemekteyiz. Hasta güvenliği ve refahı her zaman önceliğimizdir. Siz veya sevdikleriniz için en iyi evde sağlık hizmetini sunmak için buradayız.</li>
+                                </ul>
+                            </div>
                         <div className="allContact">
                             <ul>
                                 <h3>Bize Ulaş</h3>
@@ -27,9 +33,6 @@ const Footer= () => {
                             </ul>
                         </div>
                         
-                        </div>
-                        <div className="footerLogo">
-                            <img src="/images/logo2.png" alt="footerlogo" />
                         </div>
                         
                     </div>
