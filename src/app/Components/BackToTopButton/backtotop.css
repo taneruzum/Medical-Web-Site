@@ -6,12 +6,22 @@
     color: #ccc;
     background-color: #1a89ca;
     bottom: 2rem;
-    left: 2rem;
+    right: 2rem;
     border-radius: 50%;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .5s ease;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.visible {
+
+    opacity: 1;
+    transition: all 1s ease;
+
 }
 
 .backToTopButton svg {
