@@ -169,13 +169,14 @@ body {
 
 .servicesItem {
     width: 170px;
-    height: 102px;
+    height: 105px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     row-gap: 0.5rem;
-    background-color: #494949;
+    padding: 1rem;
+    background: #0676ED;
     color: #fff;
     fill: #fff;
     border-radius: 8px;
@@ -189,7 +190,7 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
-    font-size: 14px;
+    font-size: 16px;
     gap: 5px;
 }
 
@@ -203,17 +204,19 @@ body {
     position: absolute;
     top: 0;
     left: 100%;
-    padding: .5rem;
-    background-color: #494949;
+    padding: 1rem;
+    background-color: #ffff;   
+    color: black;  
     border-radius: 8px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     text-align: left;
-    font-size: 14px;
+    font-size: 16px;
     width: 250px;
     max-height: 230px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
+    box-shadow:  3px 4px 5px rgba(0, 0, 0, 0.55);
     z-index: 2;
     transition: opacity 1s ease, left 1.5s ease;
     pointer-events: none;

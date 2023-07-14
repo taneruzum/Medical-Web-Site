@@ -39,12 +39,12 @@ const NavBar = () => {
       <div className="topContent">
         <div className="allInformations">
           <div className="contact">
-            <div className="phone"><a href=""><span>(+90) 534 872 57 35</span></a></div>
-            <div className="location"><a href=""><span>İstanbul - Ataşehir </span></a></div>
+            <div className="phone"><span>(+90) 534 872 57 35</span></div>
+            <div className="location"><span>İstanbul - Ataşehir </span></div>
             {/* <div className="email"><a href=""><span>example@gmail.com</span></a></div> */}
           </div>
           <div className="socialMedias">
-            <div className="instagram"><a href=""><img src="/images/instagram.png" alt="instagram" /></a></div>
+            <div className="instagram"><a href=""><img src="/images/instagram.png" alt="instagram" title='Bizi Takip Et'/></a></div>
           </div>
         </div>
       </div>
