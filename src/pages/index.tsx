@@ -115,7 +115,7 @@ export default function Home() {
       <div className='globalContentContainer'>
         <div className="informationBox">
           <figure className='figure'>
-            <img src="/images/photomain.jpg" alt="Remin kaynağı yok" />
+            <img src="/images/photomain.jpg" alt="Ataşehir Evde Sağlık" />
           </figure>
           <section className='section'>
             <header><h1>Evde Sağlık Hizmeti</h1>
@@ -144,6 +144,21 @@ export default function Home() {
 
 
           </section>
+
+        </div>
+        <div className="aboutUsText">
+          <h2>Hakkımızda</h2>
+          <p> "<strong>AcmedCare, Ataşehir genelinde evde sağlık hizmetleri sunan bir doktor grubudur. Ekibimiz, uzman doktorlar ve deneyimli sağlık personeliyle birlikte çalışarak hasta odaklı ve profesyonel bir hizmet sunmayı hedeflemektedir. </strong> 
+
+            Evde sağlık hizmeti alanında uzun yıllardır faaliyet gösteren AcmedCare, hasta konforunu ve iyileşme sürecini en üst düzeyde tutmayı amaçlamaktadır. Ataşehir ve çevresinde yaşayan hastalarımıza, kapsamlı bir sağlık hizmeti sunarak, onların sağlıklı bir şekilde evde kalabilmelerine ve rahat bir yaşam sürmelerine yardımcı olmaktayız.
+
+            Hizmetlerimiz arasında; evde doktor muayenesi, tıbbi bakım, ilaç uygulaması, enjeksiyon, yara bakımı, kan ve tahlil örneklerinin alınması, evde fizyoterapi ve rehabilitasyon gibi birçok alan bulunmaktadır. Tüm hizmetlerimizi uzman ekip üyelerimizle birlikte, hasta odaklı ve güvenli bir şekilde sunmaktayız.
+
+            AcmedCare olarak, hastalarımızın konforunu ve sağlığını ön planda tutan, güvenilir ve nitelikli bir sağlık hizmeti sunmak için çalışmaktayız. Siz de Ataşehir ve çevresinde evde sağlık hizmeti almak isteyen hastalarımız arasına katılabilirsiniz. Bize ulaşarak detaylı bilgi alabilir veya randevu oluşturabilirsiniz.
+            
+            AcmedCare, evde sağlık hizmetinde güvenilir bir adrestir. Sağlığınızı bizimle güvenle paylaşabilirsiniz."
+          
+            </p>
 
         </div>
         <div className='servicesContainer' id='servicesSection'>

@@ -4,7 +4,8 @@ import 'swiper/css/navigation';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Keyboard, Autoplay, Parallax } from 'swiper/modules';
 function SwiperComponent() {
-    const images = ["/Images/photo1.webp", "/Images/photo2.jpg", "/Images/photo3.jpg", "/Images/photo3.jpg",]
+    const images = ["/Images/photo1.webp", "/Images/photo2.jpg", "/Images/photo3.jpg", "/Images/photo4.jpg",]
+    const texts = ["Çok uzaklara gitmene yok. Biz yanınızdayız !","Evinizde hizmet vermeye hazırız !"]
     return (
         <div className="containerSlider">
             <Swiper
@@ -23,12 +24,12 @@ function SwiperComponent() {
                 }}
 
                 modules={[Pagination, Keyboard, Autoplay, Parallax]}
-                className="swiper"
+                
             >
                 {
                     images.map((image, index) => (
                         <SwiperSlide key={index}>
-                            <img src={image} alt='görsel yok' />
+                            <img src={image} alt='Evde Sağlık Resim' />
                         </SwiperSlide>
                     ))
                 }
@@ -53,6 +54,13 @@ function SwiperComponent() {
                 </div>
             </div>
             <div className="swiperText">
+                {/* {
+                     texts.map((text, index) => (
+                        <div key={index}>
+                             {text}
+                        </div>
+                    ))
+                } */}
                 
             </div>
         </div >

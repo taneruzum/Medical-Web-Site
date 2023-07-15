@@ -52,7 +52,7 @@ const NavBar = () => {
       <nav className="navBar">
         {/* <div className="acmedCareLogo" ref={logoRef}> */}
         <div className="acmedCareLogo">
-          <img /*ref={logoRef}*/ src="/images/logo2.png" alt="logo" />
+          <img /*ref={logoRef}*/ src="/images/AcmedCareLogo.jpg" alt="logo" />
         </div>
         <ul className="content">
           <li><a href=""><span className="material-symbols-outlined">home</span>Anasayfa</a></li>

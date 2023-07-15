@@ -61,88 +61,23 @@ body {
     text-align: justify;
     
 }
-
-
-
-/* .section {
-    position: relative;
-    margin-top: 140px;
-}
-
-.sectionContainer {
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 100%;
-    padding: 0 15px;
-}
-
-.sectionContainer .row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.insideRow1,
-.insideRow2 {
-    flex: 0 0 50%;
+.aboutUsText{
     max-width: 50%;
-    position: relative;
+    min-width: 450px;
     width: 100%;
-    min-height: 1px;
-    padding: 0 50px;
-}
 
-.sectionImg {
-    width: 100%;
-    height: 100%;
-    background-color: #d8d8d8;
-}
-
-.title-wrap {
-    position: relative;
-    text-align: left;
-    margin-top: 15px;
-    display: block;
-}
-
-.h-sub {
-    color: #494949;
-    position: relative;
-    z-index: 1;
-    margin-bottom: 17px;
-    line-height: 1.2em;
-    font-size: 17px;
-    font-weight: 500;
-    letter-spacing: 1px;
-}
-
-.h-sub2 {
-    line-height: 1em;
-    margin-bottom: 10px;
-    font-weight: 600;
-    font-size: 36px;
-}
-
-
-
-.meetParagraph {
-    margin-top: 34px;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0.5rem;
 
 }
-
-.firstParagraph{
-
-} 
-.secondParagraph {
-    text-align: left;
+.aboutUsText p {
+    text-align: justify;
 }
 
-.secondParagraph p {
-    margin-bottom: 30px;
-    font-size: 16px;
-    line-height: 27px;
-} */
 
 .servicesContainer {
     width: 100%;
