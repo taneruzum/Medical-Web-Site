@@ -76,6 +76,14 @@ pointer-events: none;
     border-bottom-right-radius: 20px;
 
 }
+.containerCommContents button {
+    padding: 1rem;
+    border:none;
+    background-color: antiquewhite;
+    border-radius: 12rem;
+    cursor: pointer;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.55);
+}
 
 .whatsAppBubble {
     width: 100%;
