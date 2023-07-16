@@ -16,15 +16,15 @@ const Communication = () => {
         };
     }, [isClosed]);
 
-    useEffect(() => {
-        const handleClose = () => {
-            setIsClosed(true);
-        };
+    // useEffect(() => {
+    //     const handleClose = () => {
+    //         setIsClosed(true);
+    //     };
 
-        if (isVisible && !isClosed) {
-            setTimeout(handleClose, 10000); // 5 saniye sonra kapat
-        }
-    }, [isVisible, isClosed]);
+    //     if (isVisible && !isClosed) {
+    //         setTimeout(handleClose, 10000); // 5 saniye sonra kapat
+    //     }
+    // }, [isVisible, isClosed]);
     return (
         <>
             <div className={`containerComm ${isVisible && !isClosed ? 'visible' : ''} ${isClosed ? 'closed' : ''}`}>
