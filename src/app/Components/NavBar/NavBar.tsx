@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import "./navBar.css"
+import Image from 'next/image';
 
 const NavBar = () => {
   //  aşşağıdan logoRef aç
@@ -44,7 +45,13 @@ const NavBar = () => {
             {/* <div className="email"><a href=""><span>example@gmail.com</span></a></div> */}
           </div>
           <div className="socialMedias">
-            <div className="instagram"><a href=""><img src="/images/instagram.png" alt="instagram" title='Bizi Takip Et'/></a></div>
+            <div className="instagram"><a href=""><Image
+            width={40}
+            height={40}
+            style={{objectFit:"cover",borderRadius:"50%"}}
+            src="/images/instagram.png" 
+            alt="instagram" 
+            title='Bizi Takip Et'/></a></div>
           </div>
         </div>
       </div>
@@ -52,7 +59,7 @@ const NavBar = () => {
       <nav className="navBar">
         {/* <div className="acmedCareLogo" ref={logoRef}> */}
         <div className="acmedCareLogo">
-          <img /*ref={logoRef}*/ src="/images/AcmedCareLogo.jpg" alt="logo" />
+          <img /*ref={logoRef}*/src="/images/AcmedCareLogo.jpg" alt="logo" />
         </div>
         <ul className="content">
           <li><a href=""><span className="material-symbols-outlined">home</span>Anasayfa</a></li>

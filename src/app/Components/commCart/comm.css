@@ -12,7 +12,7 @@
 }
 
 .containerComm.visible {
-    width: 400px;
+    width: 550px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -26,7 +26,7 @@
     color: #000;
     position: fixed;
     right: 2rem;
-    bottom: 2rem;
+    bottom: 1.7rem;
     z-index: 20;
     transform: translate(-100%, 100%);
     animation: slideIn 1s forwards;
@@ -67,7 +67,7 @@
     align-items: self-start;
     justify-content: center;
     flex-wrap: wrap;
-    padding: .5rem;
+    padding: 1rem;
     background-image: url("../../../../public//images/wpbg.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -90,7 +90,7 @@
 .whatsAppBubble {
     width: 100%;
     height: auto;
-    padding: 1rem;
+    padding: .8rem;
     background-color: #fff;
     border-radius: 8px 8px 8px 0;
     color: #000;

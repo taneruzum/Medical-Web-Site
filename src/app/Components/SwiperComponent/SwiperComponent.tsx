@@ -6,24 +6,30 @@ import { Pagination, Keyboard, Autoplay, Parallax } from 'swiper/modules';
 import { text } from 'stream/consumers';
 function SwiperComponent() {
     const images = [
-    { path: "/Images/photo1.webp",
-      text:  "Çok uzaklara gitmene yok. Biz yanınızdayız !"
-    },
-    {path: "/Images/photo2.jpg",
-     text:"Evinizde hizmet vermeye hazırız !"   
-    }, 
-     {path: "/Images/photo3.jpg",
-     text:  "boş" 
-    },  
-     {path: "/Images/photo4.jpg",
-     text:   "boş"
-    }, ]
+        {
+            path: "/Images/photo1.webp",
+            text: "Çok uzaklara gitmene gerek yok. Biz yanınızdayız !",
+            underText: "denemeee sdfhskjdhnf sdkjfksld ..."
+        },
+        {
+            path: "/Images/photo2.jpg",
+            text: "Evinizde hizmet vermeye hazırız !",
+            underText: "denemeee sdfhskjdhnf sdkjfksld ..."
+        },
+        {
+            path: "/Images/photo3.jpg",
+            text: "boş"
+        },
+        {
+            path: "/Images/photo4.jpg",
+            text: "boş"
+        },]
 
     return (
         <div className="containerSlider">
             <Swiper
                 slidesPerView={1}
-                spaceBetween={30}
+                spaceBetween={10}
                 keyboard={{
                     enabled: true,
                 }}
@@ -37,13 +43,16 @@ function SwiperComponent() {
                 }}
 
                 modules={[Pagination, Keyboard, Autoplay, Parallax]}
-                
+
             >
                 {
                     images.map((content, index) => (
                         <SwiperSlide key={index}>
                             <img src={content.path} alt='Evde Sağlık Resim' />
-                            <p>{content.text}</p>
+                            <div className='swiperTextDiv'>
+                                <h3>{content.text}</h3>
+                                <p>{content.underText}</p>
+                            </div>
                             <div className="scroll-down"></div>
                         </SwiperSlide>
                     ))
