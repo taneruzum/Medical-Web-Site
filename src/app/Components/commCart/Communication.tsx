@@ -38,7 +38,9 @@ const Communication = () => {
                         Mert ÜZÜM | +90 534 872 57 35 <br />
                         Detaylı bilgi için bu numaradan doktorunuza ulaşabilirsiniz.
                     </div>
-                    <button type="button">WhatsApp ile ulaşmak için tıkla</button>
+                    <a href="https://wa.me/905348725735" target="_blank" rel="noopener">
+                        <button type="button">WhatsApp ile ulaşmak için tıkla</button>
+                    </a>
                 </div>
             </div>
         </>

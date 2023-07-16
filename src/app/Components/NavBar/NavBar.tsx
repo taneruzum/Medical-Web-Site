@@ -45,7 +45,7 @@ const NavBar = () => {
             {/* <div className="email"><a href=""><span>example@gmail.com</span></a></div> */}
           </div>
           <div className="socialMedias">
-            <div className="instagram"><a href=""><Image
+            <div className="instagram"><a href="https://www.instagram.com/acmedcare/?hl=tr" target="_blank" rel="noopener"><Image
             width={40}
             height={40}
             style={{objectFit:"cover",borderRadius:"50%"}}

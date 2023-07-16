@@ -7,7 +7,7 @@ import { text } from 'stream/consumers';
 function SwiperComponent() {
     const images = [
         {
-            path: "/Images/photo1.webp",
+            path: "/Images/photo1.jpg",
             text: "Çok uzaklara gitmene gerek yok. Biz yanınızdayız !",
             underText: "denemeee sdfhskjdhnf sdkjfksld ..."
         },
@@ -23,7 +23,17 @@ function SwiperComponent() {
         {
             path: "/Images/photo4.jpg",
             text: "boş"
-        },]
+        },
+        {
+            path: "/Images/photo5.jpg",
+            text: "boş"
+        },
+        {
+            path: "/Images/photo6.webp",
+            text: "boş"
+        },
+        
+    ]
 
     return (
         <div className="containerSlider">
@@ -53,7 +63,11 @@ function SwiperComponent() {
                                 <h3>{content.text}</h3>
                                 <p>{content.underText}</p>
                             </div>
-                            <div className="scroll-down"></div>
+                            <svg className="arrows">
+                                <path className="a1" d="M0 0 L30 32 L60 0"></path>
+                                <path className="a2" d="M0 20 L30 52 L60 20"></path>
+                                <path className="a3" d="M0 40 L30 72 L60 40"></path>
+                            </svg>
                         </SwiperSlide>
                     ))
                 }

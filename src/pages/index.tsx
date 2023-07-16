@@ -10,12 +10,14 @@ import BackToTopButton from '../app/Components/BackToTopButton/BackToTopButton';
 import SwiperComponent from '../app/Components/SwiperComponent/SwiperComponent';
 import Communication from '@/app/Components/commCart/Communication';
 import { url } from 'inspector';
+import Head from 'next/head'
+
 
 const services = [
   {
-    name: "Vital Bulguların Takibi",
+    name: "Glutatyon Tedavisi",
     svg: (<svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 512 512"><path d="M441 7l32 32 32 32c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-15-15L417.9 128l55 55c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-72-72L295 73c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l55 55L422.1 56 407 41c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0zM210.3 155.7l61.1-61.1c.3 .3 .6 .7 1 1l16 16 56 56 56 56 16 16c.3 .3 .6 .6 1 1l-191 191c-10.5 10.5-24.7 16.4-39.6 16.4H97.9L41 505c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l57-57V325.3c0-14.9 5.9-29.1 16.4-39.6l43.3-43.3 57 57c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-57-57 41.4-41.4 57 57c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-57-57z"/></svg>),
-    text:"Tansiyon ve nabız ölçümü."
+    text:"Glutatyon, doğal bir antioksidan olarak hücreleri korur ve detoksifikasyon süreçlerine destek olur. Sağlığınız için güçlü bir kalkan sağlayan bu önemli molekülü keşfedin."
 
   },
   {
@@ -99,13 +101,20 @@ export default function Home() {
     
 
     <div className='mainPageContainer'>
+      <Head>
+      <html lang="tr" />
+        
         <meta charSet="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <meta name="keywords" content="evde sağlık hizmeti, evde bakım telefon, evde sağlık telefon, evde saglik hizmeti, evde saglik, yaşlılara evde sağlık hizmeti, evde bakım sağlık hizmetleri, glutatyon, doping serum, ataşehir , ataşehir sağlık hizmeti"></meta>
-        
+        <meta name="keywords" content="evde sağlık hizmeti, evde bakım telefon, evde sağlık telefon, evde saglik hizmeti, ataşehir , ataşehir sağlık hizmeti, evde saglik, yaşlılara evde sağlık hizmeti, evde bakım sağlık hizmetleri, glutatyon, glutatyon fiyat, glutatyon takviyesi, doping serum, prp uygulaması, prp tedavisi"></meta>
         
         <title>AcmedCare | Evde Sağlık Hizmeti</title>
         <meta name="description" content="İstanbul Ataşehir'de uzman ekip tarafından sunulan evde sağlık hizmetiyle sağlığınızı güvence altına alın." />
+      </Head>
+        
+        
+        
+        
 
       
       <Communication />
@@ -146,21 +155,20 @@ export default function Home() {
           </section>
 
         </div>
-        <div className="aboutUsText">
-          <h2>Hakkımızda</h2>
-          <p> "<strong>AcmedCare, Ataşehir genelinde evde sağlık hizmetleri sunan bir doktor grubudur. Ekibimiz, uzman doktorlar ve deneyimli sağlık personeliyle birlikte çalışarak hasta odaklı ve profesyonel bir hizmet sunmayı hedeflemektedir. </strong> 
+        <div className="informationBox2">
+          <h2>Ataşehir | Evde Sağlık Hizmeti</h2>
+          <p> <strong>Hoş Geldiniz! AcmedCare olarak, sizlere evinizde kaliteli sağlık hizmetleri sunuyoruz. Yaş fark etmeksizin, her bireyin sağlığı bizim için önemlidir ve özel bakım ve tedavi imkanları sağlamak için buradayız. Ataşehir ve çevre bölgelerde yerel olarak faaliyet gösteriyor ve hizmetlerimizi geniş bir kesime sunuyoruz. </strong>
+            Sağlık hizmetlerimiz, hastalarımızın konforlu ve güvenli bir ortamda kaliteli bakım almalarını sağlar. 
 
-            Evde sağlık hizmeti alanında uzun yıllardır faaliyet gösteren AcmedCare, hasta konforunu ve iyileşme sürecini en üst düzeyde tutmayı amaçlamaktadır. Ataşehir ve çevresinde yaşayan hastalarımıza, kapsamlı bir sağlık hizmeti sunarak, onların sağlıklı bir şekilde evde kalabilmelerine ve rahat bir yaşam sürmelerine yardımcı olmaktayız.
+            Deneyimli sağlık uzmanlarımız, hasta bakımında uzmanlaşmış olup, güvenilir ve özenli bir şekilde tedavi süreçlerini yönetir. Size özel ihtiyaçlarınızı dikkate alarak, evde sağlık hizmetlerini uygun bir plan dahilinde sunuyoruz. Sağlık hizmetlerimiz, yaşam kalitenizi artırmak ve sağlıklı bir yaşam sürmenize yardımcı olmak için özenle hazırlanmıştır. Medikal tedaviler, ilaç takibi, tıbbi kontroller, sağlık danışmanlığı ve fizyoterapi gibi birçok hizmet seçeneği sunuyoruz.
 
-            Hizmetlerimiz arasında; evde doktor muayenesi, tıbbi bakım, ilaç uygulaması, enjeksiyon, yara bakımı, kan ve tahlil örneklerinin alınması, evde fizyoterapi ve rehabilitasyon gibi birçok alan bulunmaktadır. Tüm hizmetlerimizi uzman ekip üyelerimizle birlikte, hasta odaklı ve güvenli bir şekilde sunmaktayız.
-
-            AcmedCare olarak, hastalarımızın konforunu ve sağlığını ön planda tutan, güvenilir ve nitelikli bir sağlık hizmeti sunmak için çalışmaktayız. Siz de Ataşehir ve çevresinde evde sağlık hizmeti almak isteyen hastalarımız arasına katılabilirsiniz. Bize ulaşarak detaylı bilgi alabilir veya randevu oluşturabilirsiniz.
-            
-            AcmedCare, evde sağlık hizmetinde güvenilir bir adrestir. Sağlığınızı bizimle güvenle paylaşabilirsiniz."
-          
+            Sağlık ve refahınız bizim önceliğimizdir. Siz ve sevdikleriniz için en iyi evde sağlık hizmetini almak istiyorsanız bize ulaşın!
+            AcmedCare | Telefon: 0534 872 57 35
             </p>
 
         </div>
+
+        
         <div className='servicesContainer' id='servicesSection'>
           <h2>
             Evde Sağlık Hizmetlerimiz
@@ -182,6 +190,58 @@ export default function Home() {
 
           </div>
         </div>
+
+        <div className="otherServicesHeader">Diğer Uygulamalarımız</div>
+
+        <div className="informationBox3">
+          <figure className='figure'>
+            <img src="/images/photomain2.jpg" alt="PRP Uygulaması" />
+          </figure>
+          <section className='section'>
+            <header><h2>PRP Tedavisi</h2>
+              <h3>PRP Tedavisi Nedir ?</h3>
+            </header>
+            <article>
+              <p> PRP (Platelet-Rich Plasma), Türkçe adıyla "Trombosit Zengin Plazma", medikal ve estetik alanda kullanılan bir tedavi yöntemidir. Bu yöntem, hastanın kendi kanından elde edilen plazma içeriğindeki trombosit miktarının arttırılarak kullanılmasına dayanır.</p>
+              	<section className='middleText'>
+					<h3>PRP Uygulaması Nasıl Gerçekleşir ?</h3>
+					<p> PRP uygulaması şu adımlarla gerçekleştirilir:
+
+						<p><b>1. Kan Örneği Alma: </b> İlk adım, hastadan bir kan örneği alınmasıdır. Bu işlem, diğer rutin kan testlerinde kullanılan bir iğneyle yapılan basit bir kan alma işlemidir. </p>
+						<p><b>2. Kanın Santrifüj Edilmesi: </b>Alınan kan örneği, özel bir santrifüj cihazında döndürülerek trombositler, plazmadan ayrıştırılır ve yoğunlaştırılır. Bu şekilde elde edilen trombosit zengin plazma, vücutta iyileşme süreçlerini desteklemek için kullanılır.</p>
+						<p><b>3. Uygulama: </b> Elde edilen PRP, genellikle enjeksiyon yoluyla veya cilt yüzeyine uygulanarak kullanılır. Bu işlem, yaraların ve hasarlı dokuların iyileşme sürecini hızlandırmaya ve yeni hücre oluşumunu teşvik etmeye yardımcı olabilir.</p>
+					</p> <br />
+
+					<h3>PRP Uygulaması Hangi Alanlarda Kullanılır ?</h3>
+					<p>  PRP tedavisi, çeşitli alanlarda kullanılmaktadır:
+
+						<p><b>Cilt Gençleştirme: </b> PRP, cildin yeniden yapılanmasını teşvik ederek kollajen üretimini artırabilir ve ciltte sıkılık ve elastikiyet kazandırabilir.</p>
+						<p><b>Saç Dökülmesi Tedavisi: </b>PRP, saç köklerinin güçlenmesine ve saç büyümesinin teşvik edilmesine yardımcı olabilir.</p>
+						<p><b>Eklem Ağrıları: </b> PRP, eklem hasarlarının onarımını destekleyerek ve iltihaplanmayı azaltarak eklem ağrılarına yardımcı olabilir.</p>
+						<p><b>Cerrahi Sonrası İyileşme: </b> PRP, cerrahi operasyon sonrasında iyileşme sürecini hızlandırmak ve doku onarımını teşvik etmek için kullanılabilir.</p>
+					</p>
+              </section>
+            </article>
+          </section>
+          
+        </div>
+        
+        <div className="aboutUsText">
+          <h2>Hakkımızda</h2>
+          <p> "<strong>AcmedCare, Ataşehir genelinde evde sağlık hizmetleri sunan bir doktor grubudur. Ekibimiz, uzman doktorlar ve deneyimli sağlık personeliyle birlikte çalışarak hasta odaklı ve profesyonel bir hizmet sunmayı hedeflemektedir. </strong> 
+
+            Evde sağlık hizmeti alanında uzun yıllardır faaliyet gösteren AcmedCare, hasta konforunu ve iyileşme sürecini en üst düzeyde tutmayı amaçlamaktadır. Ataşehir ve çevresinde yaşayan hastalarımıza, kapsamlı bir sağlık hizmeti sunarak, onların sağlıklı bir şekilde evde kalabilmelerine ve rahat bir yaşam sürmelerine yardımcı olmaktayız.
+
+            Hizmetlerimiz arasında; evde doktor muayenesi, tıbbi bakım, ilaç uygulaması, enjeksiyon, yara bakımı, kan ve tahlil örneklerinin alınması, evde fizyoterapi ve rehabilitasyon gibi birçok alan bulunmaktadır. Tüm hizmetlerimizi uzman ekip üyelerimizle birlikte, hasta odaklı ve güvenli bir şekilde sunmaktayız.
+
+            AcmedCare olarak, hastalarımızın konforunu ve sağlığını ön planda tutan, güvenilir ve nitelikli bir sağlık hizmeti sunmak için çalışmaktayız. Siz de Ataşehir ve çevresinde evde sağlık hizmeti almak isteyen hastalarımız arasına katılabilirsiniz. Bize ulaşarak detaylı bilgi alabilir veya randevu oluşturabilirsiniz.
+            
+            AcmedCare, evde sağlık hizmetinde güvenilir bir adrestir. Sağlığınızı bizimle güvenle paylaşabilirsiniz."
+          
+            </p>
+
+        </div>
+        
       </div>
       {/* <div className="main-div">
         Hover over me
