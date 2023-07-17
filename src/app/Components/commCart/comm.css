@@ -12,7 +12,7 @@
 }
 
 .containerComm.visible {
-    width: 550px;
+    width: 640px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -64,7 +64,6 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    align-items: self-start;
     justify-content: center;
     flex-wrap: wrap;
     padding: 1rem;
@@ -76,9 +75,10 @@
     z-index: 50;
 
 }
+
 .containerCommContents button {
     padding: 1rem;
-    border:none;
+    border: none;
     background-color: antiquewhite;
     border-radius: 12rem;
     cursor: pointer;
@@ -87,27 +87,35 @@
 
 
 
-.whatsAppBubble {
-    width: 100%;
+.whatsappBubble {
+    max-width: 500px;
     height: auto;
     padding: .8rem;
     background-color: #fff;
-    border-radius: 8px 8px 8px 0;
     color: #000;
     word-wrap: break-word;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-size: 15px;
 
 }
 
-.commName {
-    font-size: 18px;
-
+.whatsappBubbleGroup {
+    display: flex;
+    flex-direction: column;
 }
 
-.commName::after {
-    content: "Üzüm";
+.inComing {
+    align-self: flex-start;
+    border-radius: 8px 8px 8px 0;
+}
+
+.outGoing {
+    align-self: flex-end;
+    border-radius: 8px 8px 0 8px;
+    
+}
+
+.outGoing a {
     color: #49b0c1;
-    font-size: 23px;
-    font-weight: 500;
+    
 }
