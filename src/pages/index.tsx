@@ -156,15 +156,14 @@ export default function Home() {
         </div>
         <div className="informationBox2">
           <h2>Ataşehir | Evde Sağlık Hizmeti</h2>
-          <p> <strong>Hoş Geldiniz! AcmedCare olarak, sizlere evinizde kaliteli sağlık hizmetleri sunuyoruz. Yaş fark etmeksizin, her bireyin sağlığı bizim için önemlidir ve özel bakım ve tedavi imkanları sağlamak için buradayız. Ataşehir ve çevre bölgelerde yerel olarak faaliyet gösteriyor ve hizmetlerimizi geniş bir kesime sunuyoruz. </strong>
-            Sağlık hizmetlerimiz, hastalarımızın konforlu ve güvenli bir ortamda kaliteli bakım almalarını sağlar. 
-
-            Deneyimli sağlık uzmanlarımız, hasta bakımında uzmanlaşmış olup, güvenilir ve özenli bir şekilde tedavi süreçlerini yönetir. Size özel ihtiyaçlarınızı dikkate alarak, evde sağlık hizmetlerini uygun bir plan dahilinde sunuyoruz. Sağlık hizmetlerimiz, yaşam kalitenizi artırmak ve sağlıklı bir yaşam sürmenize yardımcı olmak için özenle hazırlanmıştır. Medikal tedaviler, ilaç takibi, tıbbi kontroller, sağlık danışmanlığı ve fizyoterapi gibi birçok hizmet seçeneği sunuyoruz.
-
-            Sağlık ve refahınız bizim önceliğimizdir. Siz ve sevdikleriniz için en iyi evde sağlık hizmetini almak istiyorsanız bize ulaşın!
-            AcmedCare | Telefon: 0534 872 57 35
-            </p>
-
+            <p><strong>Hoş Geldiniz! AcmedCare olarak, sizlere evinizde kaliteli sağlık hizmetleri sunuyoruz. Yaş fark etmeksizin, her bireyin sağlığı bizim için önemlidir ve özel bakım ve tedavi imkanları sağlamak için buradayız. Ataşehir ve çevre bölgelerde yerel olarak faaliyet gösteriyor ve hizmetlerimizi geniş bir kesime sunuyoruz. </strong></p> 
+            <p>Sağlık hizmetlerimiz, hastalarımızın konforlu ve güvenli bir ortamda kaliteli bakım almalarını sağlar. 
+            Deneyimli sağlık uzmanlarımız, hasta bakımında uzmanlaşmış olup, güvenilir ve özenli bir şekilde tedavi süreçlerini yönetir.</p>
+            
+            <p>Size özel ihtiyaçlarınızı dikkate alarak, evde sağlık hizmetlerini uygun bir plan dahilinde sunuyoruz. Sağlık hizmetlerimiz, yaşam kalitenizi artırmak ve sağlıklı bir yaşam sürmenize yardımcı olmak için özenle hazırlanmıştır. Medikal tedaviler, ilaç takibi, tıbbi kontroller, sağlık danışmanlığı ve fizyoterapi gibi birçok hizmet seçeneği sunuyoruz.</p>
+            
+            <p>Sağlık ve refahınız bizim önceliğimizdir. Siz ve sevdikleriniz için en iyi evde sağlık hizmetini almak istiyorsanız bize ulaşın!
+            <strong> AcmedCare | Telefon: 0534 872 57 35</strong> </p>
         </div>
 
         
@@ -228,17 +227,15 @@ export default function Home() {
         
         <div className="aboutUsText">
           <h2>Hakkımızda</h2>
-          <p> "<strong>AcmedCare, Ataşehir genelinde evde sağlık hizmetleri sunan bir doktor grubudur. Ekibimiz, uzman doktorlar ve deneyimli sağlık personeliyle birlikte çalışarak hasta odaklı ve profesyonel bir hizmet sunmayı hedeflemektedir. </strong> 
+           <p><strong>AcmedCare, Ataşehir genelinde evde sağlık hizmetleri sunan bir doktor grubudur. Ekibimiz, uzman doktorlar ve deneyimli sağlık personeliyle birlikte çalışarak hasta odaklı ve profesyonel bir hizmet sunmayı hedeflemektedir. </strong></p> 
 
-            Evde sağlık hizmeti alanında uzun yıllardır faaliyet gösteren AcmedCare, hasta konforunu ve iyileşme sürecini en üst düzeyde tutmayı amaçlamaktadır. Ataşehir ve çevresinde yaşayan hastalarımıza, kapsamlı bir sağlık hizmeti sunarak, onların sağlıklı bir şekilde evde kalabilmelerine ve rahat bir yaşam sürmelerine yardımcı olmaktayız.
+            <p>Evde sağlık hizmeti alanında uzun yıllardır faaliyet gösteren AcmedCare, hasta konforunu ve iyileşme sürecini en üst düzeyde tutmayı amaçlamaktadır. Ataşehir ve çevresinde yaşayan hastalarımıza, kapsamlı bir sağlık hizmeti sunarak, onların sağlıklı bir şekilde evde kalabilmelerine ve rahat bir yaşam sürmelerine yardımcı olmaktayız.</p>
 
-            Hizmetlerimiz arasında; evde doktor muayenesi, tıbbi bakım, ilaç uygulaması, enjeksiyon, yara bakımı, kan ve tahlil örneklerinin alınması, evde fizyoterapi ve rehabilitasyon gibi birçok alan bulunmaktadır. Tüm hizmetlerimizi uzman ekip üyelerimizle birlikte, hasta odaklı ve güvenli bir şekilde sunmaktayız.
+            <p>Hizmetlerimiz arasında; evde doktor muayenesi, tıbbi bakım, ilaç uygulaması, enjeksiyon, yara bakımı, kan ve tahlil örneklerinin alınması, evde fizyoterapi ve rehabilitasyon gibi birçok alan bulunmaktadır. Tüm hizmetlerimizi uzman ekip üyelerimizle birlikte, hasta odaklı ve güvenli bir şekilde sunmaktayız.</p>
 
-            AcmedCare olarak, hastalarımızın konforunu ve sağlığını ön planda tutan, güvenilir ve nitelikli bir sağlık hizmeti sunmak için çalışmaktayız. Siz de Ataşehir ve çevresinde evde sağlık hizmeti almak isteyen hastalarımız arasına katılabilirsiniz. Bize ulaşarak detaylı bilgi alabilir veya randevu oluşturabilirsiniz.
+            <p>AcmedCare olarak, hastalarımızın konforunu ve sağlığını ön planda tutan, güvenilir ve nitelikli bir sağlık hizmeti sunmak için çalışmaktayız. Siz de Ataşehir ve çevresinde evde sağlık hizmeti almak isteyen hastalarımız arasına katılabilirsiniz. Bize ulaşarak detaylı bilgi alabilir veya randevu oluşturabilirsiniz.</p>
             
-            AcmedCare, evde sağlık hizmetinde güvenilir bir adrestir. Sağlığınızı bizimle güvenle paylaşabilirsiniz."
-          
-            </p>
+            <strong>"AcmedCare, evde sağlık hizmetinde güvenilir bir adrestir. Sağlığınızı bizimle güvenle paylaşabilirsiniz."</strong> 
 
         </div>
         
