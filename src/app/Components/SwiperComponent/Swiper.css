@@ -177,7 +177,7 @@
     color: #1bb9b9   ;
     font-size: 50px;
     font-weight: 900;
-    text-shadow: 4px 4px 1px  rgba(0,0,0,.9);
+    text-shadow: 4px 4px 4px  rgba(0,0,0,.9);
 }
 .swiperTextDiv p{
     margin-top: 1rem;
