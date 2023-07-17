@@ -155,10 +155,11 @@
 
 .swiperTextDiv{
     position: absolute;
-    right: 5rem;
+    left: 45rem;
     top: 50%;
     transform: translateY(-50%);
-    width: 750px;
+    min-width: 745px;
+    max-width: 900px;
     height: 300px;
     padding:0 20px;
     word-wrap: break-word;

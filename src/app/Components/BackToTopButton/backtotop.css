@@ -19,10 +19,13 @@
 
 .visible {
     opacity: 1;
-    transition: all 1s ease;
+    transition: all .5s ease;
 }
 
 .backToTopButton svg {
     width: 30px;
     color: #fff;
+}
+.backToTopButton:hover{
+    opacity: .8;
 }
