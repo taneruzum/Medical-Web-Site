@@ -225,7 +225,7 @@ export default function Home() {
           
         </div>
         
-        <div className="aboutUsText">
+        <div className="aboutUsText" id='aboutUs'>
           <h2>Hakkımızda</h2>
            <p><strong>AcmedCare, Ataşehir genelinde evde sağlık hizmetleri sunan bir doktor grubudur. Ekibimiz, uzman doktorlar ve deneyimli sağlık personeliyle birlikte çalışarak hasta odaklı ve profesyonel bir hizmet sunmayı hedeflemektedir. </strong></p> 
 
