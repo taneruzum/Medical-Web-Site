@@ -23,19 +23,22 @@
 .leftBox{
     display: flex;
     align-items: center;
-    justify-content: center;
-    column-gap: 50px;
+    justify-content: space-evenly;
     width: 100%;
     height: 100%;
     padding: 1rem;
 }
 .Footer ul {
-    height: 100%;
     list-style: none;
     color: aliceblue;
     padding: 1rem;
     text-align: start;
-    height: 160px;
+    height: 180px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 0.5rem;
     
 }
 
@@ -60,8 +63,31 @@
     background-color: black;
     color: aliceblue;
     
+    
 }.footerBot p {
     font-size: 12px;
+}
+@media only screen and (max-width:480px) {
+    .Footer{
+        max-height: none;
+        height: auto;
+        
+        
+    }
+    .Footer ul{
+        align-items: center;
+        height: auto;
+        
+    }
+    .leftBox{
+        flex-direction: column;
+    }
+    .footerBot p{
+        font-size: 14px;
+        text-align: center;
+        
+    }
+    
 }
 
 

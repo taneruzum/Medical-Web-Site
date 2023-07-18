@@ -108,7 +108,7 @@ export default function Home() {
         <meta name="keywords" content="evde sağlık hizmeti, evde bakım telefon, evde sağlık telefon, evde saglik hizmeti, ataşehir , ataşehir sağlık hizmeti, evde saglik, yaşlılara evde sağlık hizmeti, evde bakım sağlık hizmetleri, glutatyon, glutatyon fiyat, glutatyon takviyesi, doping serum, prp uygulaması, prp tedavisi"></meta>
         
         <title>AcmedCare | Evde Sağlık Hizmeti</title>
-        <meta name="description" content="İstanbul Ataşehir'de uzman ekip tarafından sunulan evde sağlık hizmetiyle sağlığınızı güvence altına alın." />
+        <meta name="description" content="İstanbul Ataşehir'de evde sağlık hizmeti ve uzman ekibimizle sağlığınızı güvence altına alın. PRP ve glutatyon gibi hizmetlerimize de göz at." />
       </Head>
         
         
@@ -116,10 +116,10 @@ export default function Home() {
         
 
       
-      <Communication />
-      <NavBar />
-      <BackToTopButton />
-      <SwiperComponent />
+      {/* <Communication /> */}
+      {/* <NavBar /> */}
+      {/* <BackToTopButton />
+      <SwiperComponent /> */}
       <div className='globalContentContainer'>
         <div className="informationBox">
           <figure className='figure'>
@@ -202,22 +202,22 @@ export default function Home() {
               <article>
                 <p> PRP (Platelet-Rich Plasma), Türkçe adıyla "Trombosit Zengin Plazma", medikal ve estetik alanda kullanılan bir tedavi yöntemidir. Bu yöntem, hastanın kendi kanından elde edilen plazma içeriğindeki trombosit miktarının arttırılarak kullanılmasına dayanır.</p>
                   <section className='middleText'>
-            <h3>PRP Uygulaması Nasıl Gerçekleşir ?</h3>
-            PRP uygulaması şu adımlarla gerçekleştirilir:
+                    <h3>PRP Uygulaması Nasıl Gerçekleşir ?</h3>
+                    PRP uygulaması şu adımlarla gerçekleştirilir:
 
-              <p><b>1. Kan Örneği Alma: </b> İlk adım, hastadan bir kan örneği alınmasıdır. Bu işlem, diğer rutin kan testlerinde kullanılan bir iğneyle yapılan basit bir kan alma işlemidir. </p>
-              <p><b>2. Kanın Santrifüj Edilmesi: </b>Alınan kan örneği, özel bir santrifüj cihazında döndürülerek trombositler, plazmadan ayrıştırılır ve yoğunlaştırılır. Bu şekilde elde edilen trombosit zengin plazma, vücutta iyileşme süreçlerini desteklemek için kullanılır.</p>
-              <p><b>3. Uygulama: </b> Elde edilen PRP, genellikle enjeksiyon yoluyla veya cilt yüzeyine uygulanarak kullanılır. Bu işlem, yaraların ve hasarlı dokuların iyileşme sürecini hızlandırmaya ve yeni hücre oluşumunu teşvik etmeye yardımcı olabilir.</p>
-              <br />
+                    <p><b>1. Kan Örneği Alma: </b> İlk adım, hastadan bir kan örneği alınmasıdır. Bu işlem, diğer rutin kan testlerinde kullanılan bir iğneyle yapılan basit bir kan alma işlemidir. </p>
+                    <p><b>2. Kanın Santrifüj Edilmesi: </b>Alınan kan örneği, özel bir santrifüj cihazında döndürülerek trombositler, plazmadan ayrıştırılır ve yoğunlaştırılır. Bu şekilde elde edilen trombosit zengin plazma, vücutta iyileşme süreçlerini desteklemek için kullanılır.</p>
+                    <p><b>3. Uygulama: </b> Elde edilen PRP, genellikle enjeksiyon yoluyla veya cilt yüzeyine uygulanarak kullanılır. Bu işlem, yaraların ve hasarlı dokuların iyileşme sürecini hızlandırmaya ve yeni hücre oluşumunu teşvik etmeye yardımcı olabilir.</p>
+                    <br />
 
-            <h3>PRP Uygulaması Hangi Alanlarda Kullanılır ?</h3>
-              PRP tedavisi, çeşitli alanlarda kullanılmaktadır:
+                    <h3>PRP Uygulaması Hangi Alanlarda Kullanılır ?</h3>
+                      PRP tedavisi, çeşitli alanlarda kullanılmaktadır:
 
-              <p><b>Cilt Gençleştirme: </b> PRP, cildin yeniden yapılanmasını teşvik ederek kollajen üretimini artırabilir ve ciltte sıkılık ve elastikiyet kazandırabilir.</p>
-              <p><b>Saç Dökülmesi Tedavisi: </b>PRP, saç köklerinin güçlenmesine ve saç büyümesinin teşvik edilmesine yardımcı olabilir.</p>
-              <p><b>Eklem Ağrıları: </b> PRP, eklem hasarlarının onarımını destekleyerek ve iltihaplanmayı azaltarak eklem ağrılarına yardımcı olabilir.</p>
-              <p><b>Cerrahi Sonrası İyileşme: </b> PRP, cerrahi operasyon sonrasında iyileşme sürecini hızlandırmak ve doku onarımını teşvik etmek için kullanılabilir.</p>
-              <span>PRP uygulamaları arasından <strong>'cilt gençleştirme' </strong>ve <strong>'saç dökülmesi'</strong>  üzerine tedavilerimiz bulunmaktarı.</span>
+                    <p><b>Cilt Gençleştirme: </b> PRP, cildin yeniden yapılanmasını teşvik ederek kollajen üretimini artırabilir ve ciltte sıkılık ve elastikiyet kazandırabilir.</p>
+                    <p><b>Saç Dökülmesi Tedavisi: </b>PRP, saç köklerinin güçlenmesine ve saç büyümesinin teşvik edilmesine yardımcı olabilir.</p>
+                    <p><b>Eklem Ağrıları: </b> PRP, eklem hasarlarının onarımını destekleyerek ve iltihaplanmayı azaltarak eklem ağrılarına yardımcı olabilir.</p>
+                    <p><b>Cerrahi Sonrası İyileşme: </b> PRP, cerrahi operasyon sonrasında iyileşme sürecini hızlandırmak ve doku onarımını teşvik etmek için kullanılabilir.</p>
+                    <span>PRP uygulamaları arasından <strong>'cilt gençleştirme' </strong>ve <strong>'saç dökülmesi'</strong>  üzerine tedavilerimiz bulunmaktarı.</span>
             
               </section>
             </article>

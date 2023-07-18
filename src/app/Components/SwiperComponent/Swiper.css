@@ -75,7 +75,7 @@
     object-fit: cover;
 }
 
-.swiperContent {
+/* .swiperContent {
     position: absolute;
     z-index: 1;
     width: 500px;
@@ -88,7 +88,7 @@
     justify-content: center;
     gap: 20px;
     border-radius: 8px;
-}
+} */
 
 .swiperContentTop,
 .swiperContentBottom {
@@ -207,3 +207,9 @@
     margin-left: auto;
     margin-right: auto;
 } */
+@media only screen and (max-width:480px) {
+    .swiperContent{
+        display: none;
+    }
+    
+}
