@@ -17,9 +17,9 @@ const Footer= () => {
                         <div className="allContact">
                             <ul>
                                 <h4>Bize Ulaş</h4>
-                                <li className="mail">E-posta <span>mertuzum3458@gmail.com</span></li>
-                                <li className="phone">Telefon <span>: +90 534 872 57 35</span></li>
-                                <li className="location">Konum <span>: İstanbul/Ataşehir</span></li>
+                                <li className="mail">E-posta : <span>mertuzum3458@gmail.com</span></li>
+                                <li className="phone">Telefon : <span> +90 534 872 57 35</span></li>
+                                <li className="location">Konum : <span> İstanbul/Ataşehir</span></li>
                             </ul>
                         </div>
                         

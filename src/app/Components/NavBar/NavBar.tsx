@@ -78,13 +78,13 @@ const NavBar = () => {
           <img /*ref={logoRef}*/ src="/images/AcmedCareLogo.jpg" alt="logo" />
         </div>
         <ul className="content">
-          <li><a href=""><span className="material-symbols-outlined">home</span>Anasayfa</a></li>
+          <li><span className="material-symbols-outlined">home</span>Anasayfa</li>
           <div className="verticalLine"></div>
-          <li onClick={() => scrollPage("servicesSection")}><a>Hizmetlerimiz</a></li>
+          <li onClick={() => scrollPage("servicesSection")}>Hizmetlerimiz</li>
           <div className="verticalLine"></div>
-          <li onClick={() => scrollPage("aboutUs")}><a>Hakkımızda</a></li>
+          <li onClick={() => scrollPage("aboutUs")}>Hakkımızda</li>
           <div className="verticalLine"></div>
-          <li><a href="">İletişim</a></li>
+          <li>İletişim</li>
         </ul>
       </nav>
 
