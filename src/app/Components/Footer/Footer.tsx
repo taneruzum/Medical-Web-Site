@@ -10,7 +10,7 @@ const Footer= () => {
                         <div className="leftBox">
                             <div className="aboutus">
                                 <ul>
-                                    <h3>Amacımız</h3>
+                                    <h4>Amacımız</h4>
                                     <li>AcmeDCare olarak, evde sağlık hizmetleri konusunda sektörde öncü olmayı hedeflemekteyiz. Amacımız öncelikle Ataşehir genelinde hizmet vermektir. Siz veya sevdikleriniz için en iyi evde sağlık hizmetini sunmak için buradayız.</li>
                                 </ul>
                             </div>
@@ -38,7 +38,8 @@ const Footer= () => {
                     </div>
                     <div className="footerBot">
                         <div className="footer-content">
-                            <p>Telif Hakkı © 2023 AcmedCare. Tüm hakları saklıdır. - Evde Sağlık Hizmeti - </p>
+                            <p>Telif Hakkı © 2023 AcmedCare. Tüm hakları saklıdır.
+                                - Evde Sağlık Hizmeti - </p>
                         </div>
                         
                     </div>
