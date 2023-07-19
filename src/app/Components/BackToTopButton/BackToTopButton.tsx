@@ -6,11 +6,14 @@ const BackToTopButton = () => {
 
     const handleScroll = () => {
         const scrollY = window.scrollY
-        const isVisible = scrollY > 200
+        const isVisible = scrollY < 200
+    
+        
         setIsVisible(isVisible)
     }
 
     const scrollToTop = () => {
+       
         window.scrollTo({
             top: 0,
             behavior: "smooth"
@@ -19,7 +22,9 @@ const BackToTopButton = () => {
 
     React.useEffect(() => {
         window.addEventListener("scroll", handleScroll);
+
         return () => {
+
             window.removeEventListener("scroll", handleScroll)
         }
     }, [])

@@ -57,9 +57,11 @@ const NavBar = () => {
         <div className="allInformations">
           <div className="contact">
             <div className="phone"><span>(+90) 534 872 57 35</span></div>
+            <div className="verticalLine"></div>
             <div className="location"><span>İstanbul - Ataşehir </span></div>
             {/* <div className="email"><a href=""><span>example@gmail.com</span></a></div> */}
           </div>
+          
           <div className="socialMedias">
             <div className="instagram"><a href="https://www.instagram.com/acmedcare/?hl=tr" target="_blank" rel="noopener"><Image
               width={40}

@@ -111,10 +111,10 @@ export default function Home() {
         <meta name="description" content="İstanbul Ataşehir'de evde sağlık hizmeti ve uzman ekibimizle sağlığınızı güvence altına alın. PRP ve glutatyon gibi hizmetlerimize de göz at." />
       </Head>
         
-        <Communication/> 
-        <NavBar/> 
-        <BackToTopButton />
-        <SwiperComponent /> 
+      <NavBar/>
+      {/* <SwiperComponent/> */}
+      {/* <BackToTopButton/>
+      <Communication/> */}
       <div className='globalContentContainer'>
         <div className="informationBox">
           <figure className='figure'>
@@ -235,11 +235,9 @@ export default function Home() {
         </div>
         
       </div>
-      
-      <footer>
-        <Footer></Footer>
-      </footer>
 
+        <Footer></Footer>
+ 
     </div>
   )
 }

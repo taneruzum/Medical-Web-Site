@@ -5,7 +5,7 @@
     position: fixed;
     left: 2rem;
     bottom: 2rem;
-
+    pointer-events: none;
     /* padding: 1rem; */
 
     /*2e8c7d*/
