@@ -110,10 +110,11 @@ export default function Home() {
         <title>AcmedCare | Evde Sağlık Hizmeti</title>
         <meta name="description" content="İstanbul Ataşehir'de evde sağlık hizmeti ve uzman ekibimizle sağlığınızı güvence altına alın. PRP ve glutatyon gibi hizmetlerimize de göz at." />
       </Head>
+      <div className="body">
         
       <NavBar/>
-      {/* <SwiperComponent/> */}
-      {/* <BackToTopButton/>
+      {/* <SwiperComponent/> 
+      <BackToTopButton/>
       <Communication/> */}
       <div className='globalContentContainer'>
         <div className="informationBox">
@@ -237,6 +238,7 @@ export default function Home() {
       </div>
 
         <Footer></Footer>
+      </div>
  
     </div>
   )
