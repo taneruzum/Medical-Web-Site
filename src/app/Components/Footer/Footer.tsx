@@ -38,8 +38,8 @@ const Footer = () => {
             </div>
             <div className="footerBot">
                 <div className="footer-content">
-                    <p>Telif Hakkı © {currentYear} AcmedCare. Tüm hakları saklıdır.
-                        - Evde Sağlık Hizmeti - </p>
+                    <p>Telif Hakkı © {currentYear} AcmedCare. Tüm hakları saklıdır.</p>
+                        <span>- Evde Sağlık Hizmeti - </span>
                 </div>
 
             </div>

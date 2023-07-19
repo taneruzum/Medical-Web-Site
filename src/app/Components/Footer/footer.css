@@ -14,7 +14,7 @@
 .footerTop{
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 90%;
     
 }
 .footerTop h4{
@@ -58,15 +58,89 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    height: 10%;
     padding: .2rem 0;
 
     background-color: black;
     color: aliceblue;
     
-    
-}.footerBot p {
+}
+.footer-content {
+    display: flex;
+    text-align: center;
     font-size: 12px;
 }
+
+@media only screen and (max-width:1480px) {
+
+    .Footer{
+        max-height: none;
+        height: auto;
+        
+        
+    }
+    .Footer ul{
+        align-items: center;
+        height: auto;
+        
+    }
+    .leftBox{
+        flex-direction: column;
+    }
+    
+    .footerTop{
+        height: 80%;
+    }
+    .footerBot{
+        height: 20%;
+        font-size: 14px;
+    }
+    .footer-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        
+    }
+    
+    
+}
+
+@media only screen and (max-width:980px) {
+    .Footer{
+        max-height: none;
+        height: auto;
+        
+        
+    }
+    .Footer ul{
+        align-items: center;
+        height: auto;
+        
+    }
+    .leftBox{
+        flex-direction: column;
+    }
+    
+    .footerTop{
+        height: 80%;
+    }
+    .footerBot{
+        height: 20%;
+        font-size: 14px;
+    }
+    .footer-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        
+    }
+    
+}
+
 @media only screen and (max-width:480px) {
     .Footer{
         max-height: none;
@@ -82,9 +156,20 @@
     .leftBox{
         flex-direction: column;
     }
-    .footerBot p{
+    
+    .footerTop{
+        height: 80%;
+    }
+    .footerBot{
+        height: 20%;
         font-size: 14px;
-        text-align: center;
+    }
+    .footer-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
         
     }
     
