@@ -20,123 +20,181 @@
     z-index: 99;
 }
 
-.navbarTop, .navbarBottom{
+.navbarTop,
+.navbarBottom {
     width: 100%;
     height: auto;
 
 }
-.navbarTop{
+
+.navbarTop {
     background-color: #f71804;
 }
-.navbarBottom{
+
+.navbarBottom {
     background-color: #49b0c1;
     width: 100%;
     height: auto;
-    padding: 1rem !important;
-    justify-content: flex-start;
+    padding: .5rem 3rem !important;
+    justify-content: space-evenly !important;
 }
-.navbarTop,.navbarBottom,.navbarBottom ul,.navbarTopContent,.navbarTopSocial{
+
+.navbarTop,
+.navbarBottom,
+.navbarBottom ul,
+.navbarTopContent,
+.navbarTopSocial,
+.containerLi {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0.2rem;
     color: #fff;
-    
+
 }
-.navbarTopContent{
+
+.navbarTopContent {
     width: 70%;
-    column-gap: 2rem; /* Etkiler -> span after bak */
+    column-gap: 2rem;
+    /* Etkiler -> span after bak */
 }
-.navbarTopContent>span{
+
+.navbarTopContent>span {
     position: relative;
 }
-.navbarTopContent>span:not(:last-child)::after{
+
+.navbarTopContent>span:not(:last-child)::after {
     position: absolute;
     display: block;
-    content:"";
+    content: "";
     width: 2px;
     height: 25px;
     background-color: #fff;
     top: 50%;
     transform: translateY(-50%);
-    right: -1rem;/* navbarTopContent column-gap*/
+    right: -1rem;
+    /* navbarTopContent column-gap*/
 }
-.navbarTopSocial{
+
+.navbarTopSocial {
     width: 30%;
     justify-content: flex-start;
 
 }
-.icons{
+
+.icons {
     width: 30px;
     height: 30px;
     background-color: aqua;
     border-radius: 50%;
 }
-.navbarTopSocial img{
+
+.navbarTopSocial img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
+
 }
-.logoDiv{
+
+.logoDiv {
     width: auto;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     word-wrap: break-word;
-    column-gap: 0.5rem;
+    column-gap: 1rem;
 
 }
-.logoDiv figure{
+
+.logoDiv figure {
     width: 100px;
     height: 100px;
     background-color: black;
     border-radius: 50%;
-    
+
 }
-.logoDiv img{
+
+.logoDiv img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     scale: 2;
-    
+
 }
-.logoDiv p{
+
+.logoAndMulti {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.logoDiv p {
     font-size: 24px;
     color: black;
     display: flex;
-    align-items: center;
+    align-items: self-start;
     justify-content: center;
     flex-direction: column;
-    
-}
-.logoDiv p::after{
-    content: "Evde Sağlık Hizmeti";
-    font-size: 12px;
-    color: grey ;
+    position: relative;
 
 }
 
-.navbarBottom ul{
+.multiTextDiv {
+    width: 100%;
+}
+
+.multiText {
+
+    font-size: 14px;
+    color: #fff;
+    /* padding-left: .2rem; */
+
+}
+
+.navbarBottom ul {
     column-gap: 4rem;
-    margin: 0 auto;
+
 
 }
-.navbarBottom ul li{
+
+.containerLi {
+    padding: 0 !important;
+}
+.containerLi.active{
+    /*fotoğraftakiler*/
+}
+
+.containerLi ul li {
     list-style: none;
-    font-size: 20px;
+    font-size: 24px;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 0.5rem;
-    
+    padding: 0 !important;
+
+
 }
-.navbarBottom>ul>li:not(:last-child)::after{
+
+.containerLi ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.containerLi ul li a:hover {
+    text-decoration: underline;
+}
+
+.containerLi>ul>li:not(:last-child)::after {
     position: absolute;
     display: block;
-    content:"";
+    content: "";
     width: 2px;
     height: 25px;
     background-color: #fff;
@@ -144,14 +202,17 @@
     transform: translateY(-50%);
     right: -2rem;
 }
-.navbarBottom ul li svg{
+
+.containerLi ul li svg {
     width: 25px;
     height: auto;
     fill: #fff;
     text-align: center;
 }
 
-
+.hamburgerSvgDiv {
+    display: none;
+}
 
 /* .topContent {
     width: 100%;
@@ -311,7 +372,7 @@
         'opsz' 48
 } */
 
-@media screen and (max-width:1480px) {
+@media screen and (max-width:1024px) {
     .acmedCareLogo {
         left: 5%;
     }
@@ -334,18 +395,36 @@
     .allInformations {
         width: 700px;
     }
+
+    .noneStick {
+        display: none;
+    }
+
+    /* .navbarBottom{
+        justify-content: flex-start !important;
+        column-gap: 12%;
+    } */
+    .navbarBottom {
+        justify-content: space-between !important;
+        padding: .5rem !important;
+    }
+
+    .logoAndMulti {
+        width: auto;
+    }
+
 }
 
-@media screen and (max-width:980px) {
+@media screen and (max-width:770px) {
 
-    .allInformations,
+    /* .allInformations,
     .content {
         width: 500px;
 
     }
 
     .acmedCareLogo {
-       display: none;
+        display: none;
     }
 
     .content li {
@@ -357,14 +436,80 @@
         justify-content: center;
         font-size: 15px;
     }
-    
+
     .topContent,
     .navBar {
         justify-content: center;
         padding: 0;
     }
+
+    .containerLi ul li {
+        font-size: 20px;
+    }
+
+    .navbarBottom ul {
+        column-gap: 2rem;
+    }
+
+    .containerLi>ul>li:not(:last-child)::after {
+        right: -1rem;
+    } */
+
+    /**/
+    .containerLi ul li {
+        font-size: 14px;
+    }
+
+    .logoDiv p {
+        font-size: 20px;
+    }
+
+    .multiText {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .navbarBottom ul {
+        column-gap: 1rem;
+    }
+
+    .containerLi>ul>li:not(:last-child)::after {
+        right: -.5rem;
+    }
+
+    .navbarBottom ul li svg {
+        width: 20px;
+    }
+
+    .containerLi>ul>li:not(:last-child)::after {
+        height: 15px;
+    }
+
+    .logoDiv figure {
+        width: 50px;
+        height: 50px;
+    }
+
+
 }
 
 @media only screen and (max-width:480px) {
-    
+    .navbarBottom {
+        padding: .5rem 1rem !important;
+    }
+
+    .containerLi ul {
+        /* display: none; */
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        flex-direction: column !important;
+        row-gap: .5rem;
+    }
+
+    .hamburgerSvgDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
