@@ -226,7 +226,7 @@
 
 }
 
-.containerLi ul li:hover {
+.containerLi ul li:hover svg,.containerLi ul li:hover span {
     text-decoration: underline;
     scale: 1.1;
 }
