@@ -8,12 +8,12 @@ function SwiperComponent() {
     const images = [
         {
             path: "/Images/photo1.jpg",
-            text: "Çok uzaklara gitmene gerek yok. Biz yanınızdayız !",
+            text: "Çok uzaklara gitmene gerek yok. Biz yanınızdayız!",
             underText: "denemeee sdfhskjdhnf sdkjfksld ..."
         },
         {
             path: "/Images/photo2.jpg",
-            text: "Evinizde hizmet vermeye hazırız !",
+            text: "Evinizde hizmet vermeye hazırız!",
             underText: "denemeee sdfhskjdhnf sdkjfksld ..."
         },
         {
