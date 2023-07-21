@@ -153,6 +153,10 @@
         height: auto;
         
     }
+    .Footer ul li{
+        font-size: 15px;
+        
+    }
     .leftBox{
         flex-direction: column;
     }

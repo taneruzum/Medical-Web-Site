@@ -108,9 +108,8 @@
 }
 
 .logoDiv figure {
-    width: 100px;
-    height: 100px;
-    background-color: black;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
 
 }
@@ -119,7 +118,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    scale: 2;
+    scale: 1;
 
 }
 
@@ -164,9 +163,14 @@
 .containerLi {
     padding: 0 !important;
 }
-.containerLi.active{
-    /*fotoğraftakiler*/
-}
+/*.containerLi.active{
+    fotoğraftakiler
+     width: 50%;
+    height: 140px;
+    position: absolute;
+    bottom: -140px;
+    right: 0; 
+}*/
 
 .containerLi ul li {
     list-style: none;
@@ -177,18 +181,15 @@
     justify-content: center;
     column-gap: 0.5rem;
     padding: 0 !important;
-
-
-}
-
-.containerLi ul li a {
-    text-decoration: none;
     cursor: pointer;
     color: #fff;
+
+
 }
 
-.containerLi ul li a:hover {
+.containerLi ul li:hover {
     text-decoration: underline;
+    scale: 1.1;
 }
 
 .containerLi>ul>li:not(:last-child)::after {
@@ -214,165 +215,7 @@
     display: none;
 }
 
-/* .topContent {
-    width: 100%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    background-color: #f71804;
-    top: 0;
-    color: whitesmoke;
-
-}
-
-.allInformations {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    max-width: 1200px;
-    width: 800px;
-
-}
-
-.contact {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    max-width: 1000px;
-    width: 500px;
-
-}
-
-.socialMedias {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 2rem;
-    max-width: 500px;
-    width: 120px;
-
-}
-
-.instagram {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    transition: 0.3s;
-
-}
-
-
-.instagram:hover {
-    transform: scale(1.3);
-}
-
-.allInformations a {
-    font-weight: normal;
-    font-size: 16px;
-    color: white;
-    text-decoration: none;
-
-}
-
-.navBar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 100%;
-    height: 80px;
-    background-color: #49b0c1;
-    padding: 0 1rem;
-    position: fixed;
-    top: 50px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
-
-
-}
-
-.acmedCareLogo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    left: 10%;
-    width: 145px;
-    height: 85px;
-    z-index: 9;
-    transition: 0.2s;
-
-
-}
-
-.acmedCareLogo img {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    border-radius: 4rem;
-    scale: 2;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
-}
-
-.acmedCareLogo:hover{
-    transform: scale(1.1);
-} 
-.hovered {
-    transform: scale(1.2);
-}
-
-.content {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    max-width: 1000px;
-    width: 700px;
-    padding: 1rem;
-
-}
-
-.content li {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 600;
-    font-size: 18px;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-
-    list-style: none;
-    transition: all 0.2s ease-in-out;
-    padding: 0.4rem;
-
-}
-
-.verticalLine {
-    width: 2px;
-    height: 25px;
-    background-color: aliceblue;
-}
-
-.content li:hover {
-    transform: scale(1.3);
-    background-color: rgba(0, 0, 0, 0.1); 
-    border-radius: 7rem; 
-
-}
-
-.material-symbols-outlined {
-    scale: 1.5;
-    margin-right: 7px;
-    height: 30px;
-    font-variation-settings:
-        'FILL' 1,
-        'wght' 200,
-        'GRAD' 200,
-        'opsz' 48
-} */
-
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1200px) {
     .acmedCareLogo {
         left: 5%;
     }
@@ -400,10 +243,6 @@
         display: none;
     }
 
-    /* .navbarBottom{
-        justify-content: flex-start !important;
-        column-gap: 12%;
-    } */
     .navbarBottom {
         justify-content: space-between !important;
         padding: .5rem !important;
@@ -415,36 +254,19 @@
 
 }
 
-@media screen and (max-width:770px) {
-
-    /* .allInformations,
-    .content {
-        width: 500px;
-
-    }
-
-    .acmedCareLogo {
-        display: none;
-    }
-
-    .content li {
-        font-size: 15px;
-    }
-
-    .contact {
-        column-gap: 1rem;
-        justify-content: center;
-        font-size: 15px;
-    }
-
-    .topContent,
-    .navBar {
-        justify-content: center;
-        padding: 0;
-    }
+@media screen and (max-width:1024px) {
 
     .containerLi ul li {
+        font-size: 18px;
+    }
+
+    .logoDiv p {
         font-size: 20px;
+    }
+
+    .multiText {
+        font-size: 12px;
+        text-align: center;
     }
 
     .navbarBottom ul {
@@ -453,28 +275,6 @@
 
     .containerLi>ul>li:not(:last-child)::after {
         right: -1rem;
-    } */
-
-    /**/
-    .containerLi ul li {
-        font-size: 14px;
-    }
-
-    .logoDiv p {
-        font-size: 20px;
-    }
-
-    .multiText {
-        font-size: 11px;
-        text-align: center;
-    }
-
-    .navbarBottom ul {
-        column-gap: 1rem;
-    }
-
-    .containerLi>ul>li:not(:last-child)::after {
-        right: -.5rem;
     }
 
     .navbarBottom ul li svg {
@@ -492,8 +292,51 @@
 
 
 }
+@media only screen and (max-width:770px) {
+    .containerLi ul li {
+        font-size: 16px;
+    }
 
-@media only screen and (max-width:480px) {
+    .logoDiv p {
+        font-size: 16px;
+    }
+
+    .multiText {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .navbarBottom ul {
+        column-gap: 1rem;
+    }
+
+    .containerLi>ul>li:not(:last-child)::after {
+        right: -0.5rem;
+    }
+
+    .navbarBottom ul li svg {
+        width: 18px;
+    }
+    
+}
+
+@media only screen and (max-width:590px) {
+
+    .navbarTopContent span{
+        font-size: 12px;
+    }
+    .navbarTopContent{
+        column-gap: 1rem;
+        width: 80%;
+    }
+    .navbarTopContent>span:not(:last-child)::after{
+        right: -0.5rem;
+    }
+    .navbarTopSocial{
+        width: 20%;
+    }
+
+
     .navbarBottom {
         padding: .5rem 1rem !important;
     }

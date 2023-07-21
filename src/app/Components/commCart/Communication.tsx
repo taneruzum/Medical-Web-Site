@@ -41,19 +41,15 @@ const Communication = () => {
                     
                 </div>
                 <div className="containerCommContents">
-                    <div className="whatsappBubbleGroup">
-                        <div className="whatsappBubble inComing">
-                            Merhabalar bilgi almak istiyorum.
-                        </div>
-                        <div className="whatsappBubble outGoing">
+                        <div className="whatsappBubble">
                             <strong>AcmedCare Evde Sağlık Hizmeti</strong> <br />
-                            <strong> Doç.Dr MERT ÜZÜM</strong> <br />
-                            Detaylı bilgi için <a href="https://wa.me/905348725735" target="_blank" rel="noopener"> +90 534 872 57 35</a> bu numaradan doktorunuza ulaşabilirsiniz.
+                            Dr. MERT ÜZÜM | +90 534 872 57 35<br />
+                            Detaylı bilgi için bu numaradan doktorunuza ulaşabilirsiniz.
                         </div>
-                    </div>
-                    {/* <a href="https://wa.me/905348725735" target="_blank" rel="noopener">
+                    
+                     <a href="https://wa.me/905348725735" target="_blank" rel="noopener">
                         <button type="button">WhatsApp ile ulaşmak için tıkla</button>
-                    </a> */}
+                    </a> 
                 </div>
 
             </div>

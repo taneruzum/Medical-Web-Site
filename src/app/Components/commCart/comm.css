@@ -5,7 +5,7 @@
     position: fixed;
     left: 2rem;
     bottom: 2rem;
-    pointer-events: none;
+    /* pointer-events: none; */
     /* padding: 1rem; */
 
     /*2e8c7d*/
@@ -101,9 +101,10 @@
 
 
 .whatsappBubble {
-    max-width: 500px;
+    max-width: 85%;
     height: auto;
     padding: .8rem;
+    border-radius: 1rem 1rem 1rem 0;
     background-color: #fff;
     color: #000;
     word-wrap: break-word;
@@ -112,23 +113,4 @@
 
 }
 
-.whatsappBubbleGroup {
-    display: flex;
-    flex-direction: column;
-}
 
-.inComing {
-    align-self: flex-start;
-    border-radius: 8px 8px 8px 0;
-}
-
-.outGoing {
-    align-self: flex-end;
-    border-radius: 8px 8px 0 8px;
-    
-}
-
-.outGoing a {
-    color: #49b0c1;
-    
-}

@@ -37,7 +37,7 @@ export default function Home() {
         <NavBar/>
         <SwiperComponent />
         <BackToTopButton />
-        {/* <Communication/> */}
+        {/* <Communication/>  */}
         <div className='globalContentContainer'>
           <div className="informationBox">
             <figure className='figure'>
