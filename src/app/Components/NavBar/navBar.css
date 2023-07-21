@@ -179,9 +179,10 @@
 
 .hamburgerSvgDiv {
     cursor: pointer;
-    
+
 }
-.hamburgerSvgDiv svg{
+
+.hamburgerSvgDiv svg {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .9);
 }
 
@@ -198,16 +199,16 @@
 
 .menu li {
     width: 100%;
-    color: #fff;
+    /* color: #fff; */
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: .5rem 0;
+    padding: .7rem 1rem;
     border-bottom: 1px solid #fff;
 }
 
 .mobileMenu {
-    width: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -216,9 +217,9 @@
     /* Menü açıldığında dikey pozisyonunu ayarlayın */
     right: 0;
     /* Menü açıldığında yatay pozisyonunu ayarlayın */
-    background-color: #0202024d;
+    /* background-color: #0202024d; */
     border: 1px solid #ccc;
-    padding: .5rem 1rem;
+    padding: 0 ;
 }
 
 .slideInFromRight-enter {
@@ -469,11 +470,11 @@
         top: 66px;
         width: 50%;
         align-items: flex-end;
-      
+
         height: auto;
     }
 
-    
+
 
     .containerLi ul {
         position: relative;
@@ -494,12 +495,12 @@
 
     }
 
-    .containerLi ul li:nth-child(odd) {
+    .menu li:nth-child(odd) {
         background-color: #00B894;
 
     }
 
-    .containerLi ul li:nth-child(even) {
+    .menu li:nth-child(even) {
         background-color: #ffffff;
 
     }
@@ -516,12 +517,12 @@
         fill: #fff;
     }
 
-    .containerLi ul li:nth-child(odd) {
+    .menu li:nth-child(odd) {
         color: #fff;
 
     }
 
-    .containerLi ul li:nth-child(even) {
+    .menu li:nth-child(even) {
         color: #00B894;
 
     }
