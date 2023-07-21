@@ -175,6 +175,7 @@
 .containerLi ul li {
     list-style: none;
     font-size: 24px;
+    font-weight: 500;
     position: relative;
     display: flex;
     align-items: center;
@@ -341,18 +342,79 @@
         padding: .5rem 1rem !important;
     }
 
-    .containerLi ul {
-        /* display: none; */
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        flex-direction: column !important;
-        row-gap: .5rem;
+    .navbarBottom {
+        padding: .5rem 1rem !important;
+        position: relative;
     }
+
 
     .hamburgerSvgDiv {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .containerLi {
+        position: absolute !important;
+        right: 0;
+        top: 66px;
+        width: 50%;
+        align-items: flex-end;
+        
+        height: auto;
+    }
+
+    .containerLi ul {
+        position: relative;
+        flex-direction: column;
+        /* row-gap: 1rem; */
+        align-items: flex-end;
+        width: 100%;
+        padding: 0;
+    }
+
+    .containerLi ul li {
+        width: 100%;
+        padding: 1rem 1rem !important;
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        
+    }
+
+    .containerLi ul li:nth-child(odd) {
+        background-color: #49c17b;
+
+    }
+
+    .containerLi ul li:nth-child(even) {
+        background-color: #ffffff;
+
+    }
+
+    .containerLi ul li:not(:last-child) {
+        border-bottom: 1px solid #ccc;
+    }
+    .containerLi ul li:last-child {
+        border-bottom-left-radius: 8px;
+    }
+
+    .containerLi ul li svg {
+        fill: #fff;
+    }
+
+    .containerLi ul li:nth-child(odd) {
+        color: #fff;
+
+    }
+
+    .containerLi ul li:nth-child(even) {
+        color: #49c17b;
+
+    }
+
+    .containerLi>ul>li:not(:last-child)::after {
+        display: none;
     }
 }

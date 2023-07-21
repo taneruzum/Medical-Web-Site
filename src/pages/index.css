@@ -313,6 +313,12 @@ h2 {
         max-height: none;
         row-gap: 1rem;
     }
+    .figure img {
+       
+        height: 500px;
+        
+    }
+
     /* .services{
         gap: 1rem;
         padding: 0 1rem;
