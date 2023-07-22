@@ -1,53 +1,76 @@
 .containerComm {
-    opacity: 0;
-    width: 400px;
-    height: auto;
     position: fixed;
     left: 2rem;
     bottom: 2rem;
     /* pointer-events: none; */
     /* padding: 1rem; */
-
     /*2e8c7d*/
 }
 
-.containerComm.visible {
-    width: 640px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    border-radius: 20px 20px 20px 0;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-    opacity: 1;
+.containerComm.active {
+    width: 500px;
+    height: 280px;
+    border-radius: 20px;
+    background-color: #2e8c7d;
+    transition: width 1s ease, height .8s ease, border-radius 1s ease;
+    z-index: 2;
+
+
+}
+
+.containerComm.unactive {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #2e8c7d;
+    transition: width .8s ease, height 1s ease, border-radius 3s ease;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.containerComm.unactive .containerCommContents,
+.containerComm.unactive .containerHeader {
+    opacity: 0;
+    pointer-events: none;
     transition: all 1s ease;
-    background-color: #fcfcfc;
-    color: #000;
-    position: fixed;
-    right: 2rem;
-    bottom: 1.7rem;
-    z-index: 20;
-    transform: translate(-100%, 100%);
-    animation: slideIn 1s forwards;
 }
 
-@keyframes slideIn {
-    0% {
-        transform: translate(-100%, 100%);
-    }
+.containerComm.unactive .wpIcon {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    /* transform: translate(-50%, -50%); */
+    transition: all 1s ease;
+    z-index: 2;
 
-    100% {
-        transform: translate(0, 0);
-    }
 }
+
+.containerComm.active .wpIcon {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    transform: translate(0%, 0%);
+    z-index: 2;
+    transition: all 1s ease;
+}
+
+.containerComm.active .headerLeft h3 {
+    margin-left: 55px;
+    transition: all 1s ease;
+}
+
+.containerComm.unactive .headerLeft h3 {
+    margin-left: 0;
+    transition: all 1s ease;
+}
+
 
 .containerHeader {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: .5rem;
-    column-gap: .5rem;
     width: 100%;
     background-color: #2e8c7d;
     border-top-left-radius: 20px;
@@ -57,23 +80,24 @@
     font-size: 16px;
     position: relative;
 }
-.headerLeft{
+
+.headerLeft {
     display: flex;
     align-items: center;
-}
-.headerLeft h3{
-    margin-left: 50px;
+    column-gap: .5rem;
 }
 
-.headerLeft svg{
-    position: absolute;
+.xMarker {
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
-
 
 
 .containerCommContents {
     width: 100%;
-    /* max-width: 300px; */
     height: auto;
     display: flex;
     flex-direction: column;
@@ -83,22 +107,9 @@
     background-image: url("../../../../public//images/wpbg.png");
     background-size: cover;
     background-repeat: no-repeat;
-    /* border-bottom-left-radius:20px ; */
     border-bottom-right-radius: 20px;
-    z-index: 50;
-
+    border-bottom-left-radius: 20px;
 }
-
-.containerCommContents button {
-    padding: 1rem;
-    border: none;
-    background-color: antiquewhite;
-    border-radius: 12rem;
-    cursor: pointer;
-    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.55);
-}
-
-
 
 .whatsappBubble {
     max-width: 85%;
@@ -113,4 +124,34 @@
 
 }
 
+.containerComm.active .whatsappBubble {
+    transform: translateX(0%);
+    transition: transform 1.5s ease-in-out;
+}
 
+.containerComm.unactive .whatsappBubble {
+    transform: translateX(-150%);
+    transition: transform .5s ease;
+}
+
+
+.containerCommContents button {
+    padding: 1rem;
+    border: none;
+    background-color: antiquewhite;
+    border-radius: 12rem;
+    cursor: pointer;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.55);
+    transform: translateX(0%);
+    transition: transform 1.5s ease-in-out;
+}
+
+.containerComm.active .containerCommContents button {
+    transform: translateX(0%);
+    transition: transform 1.5s ease-in-out;
+}
+
+.containerComm.unactive .containerCommContents button {
+    transform: translateX(-150%);
+    transition: transform .5s ease;
+}
