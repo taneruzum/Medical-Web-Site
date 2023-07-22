@@ -105,6 +105,7 @@ const NavBar = () => {
         <div className="navbarTopSocial">
           <figure className='icons'>
             <a href="https://www.instagram.com/acmedcare/?hl=tr" target="_blank" rel="noopener"><img src="/images/instagram.png" alt="Instagram Logo" /></a>
+            <a href="https://wa.me/905348725735" target="_blank" rel="noopener"><img src="/images/icons8-whatsapp.svg" alt="WhatsApp Logo"/></a>
           </figure>
 
         </div>
