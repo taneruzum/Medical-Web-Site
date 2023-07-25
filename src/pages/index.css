@@ -40,9 +40,11 @@ body {
 }
 
 .figure {
+    position: relative;
     display: flex;
     padding: 1rem;
     width: 100%;
+    height: 100%;
     max-width: 800px;
     border-radius: 2rem;
 
@@ -50,7 +52,7 @@ body {
 
 .figure img {
     width: 100%;
-    height: 800px;
+  
     object-fit: cover;
     border-radius: 2rem;
 }
@@ -252,9 +254,8 @@ h2 {
         max-height: none;
         row-gap: 1rem;
     }
-    .figure img {
-       
-        height: 600px;
+    .figure{
+        height: 600px !important;
         
     }
     h3{

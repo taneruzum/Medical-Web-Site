@@ -54,7 +54,9 @@
     animation-delay:0s;
     -webkit-animation-delay:0s; /* Safari 和 Chrome */
   }
-
+.swiper{
+    width: 100%;
+}
 .swiper-slide {
     position: relative;
     display: flex;
@@ -162,7 +164,7 @@
     transform: translateY(-50%);
     min-width: 745px;
     max-width: 900px;
-    height: 300px;
+    height: auto;
     padding:0 20px;
     word-wrap: break-word;
     row-gap: 1rem;
@@ -177,6 +179,7 @@
     text-shadow: 4px 4px 4px  rgba(0,0,0,.9);
 }
 .swiperTextDiv p{
+    position: relative;
     margin-top: 1rem;
     color: white;
     font-size: 24px;

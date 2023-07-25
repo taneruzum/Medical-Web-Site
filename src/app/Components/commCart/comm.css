@@ -41,8 +41,8 @@
     top: 6px;
     left: 6px;
     /* transform: translate(-50%, -50%); */
-    transition: all 1s ease;
-    z-index: 2;
+    transition: all 1.5s ease;
+    z-index: 30;
 
 }
 
@@ -52,7 +52,7 @@
     left: 6px;
     transform: translate(0%, 0%);
     z-index: 2;
-    transition: all 1s ease;
+    transition: all 1.5s ease;
 }
 
 .containerComm.active .headerLeft h3 {
@@ -104,12 +104,25 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 1rem;
-    background-image: url("../../../../public//images/wpbg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+   position: relative;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
+/* .wpbg{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+   
+}
+.wpbg img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
 
 .whatsappBubble {
     max-width: 85%;
@@ -121,37 +134,43 @@
     word-wrap: break-word;
     margin-bottom: 1rem;
     font-size: 15px;
-
+}
+.containerCommContents a,.whatsappBubble{
+    z-index: 5;
 }
 
 .containerComm.active .whatsappBubble {
+    opacity: 1;
     transform: translateX(0%);
-    transition: transform 1.5s ease-in-out;
+    transition: all 2s ease-in-out;
 }
 
 .containerComm.unactive .whatsappBubble {
+    opacity: 0;
     transform: translateX(-150%);
-    transition: transform .5s ease;
+    transition: all .5s ease;
 }
 
 
 .containerCommContents button {
+
     padding: 1rem;
     border: none;
     background-color: antiquewhite;
     border-radius: 12rem;
     cursor: pointer;
     box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.55);
-    transform: translateX(0%);
-    transition: transform 1.5s ease-in-out;
+
 }
 
 .containerComm.active .containerCommContents button {
+    opacity: 1;
     transform: translateX(0%);
-    transition: transform 1.5s ease-in-out;
+    transition: all 2s ease-in-out;
 }
 
 .containerComm.unactive .containerCommContents button {
+    opacity: 0;
     transform: translateX(-150%);
-    transition: transform .5s ease;
+    transition: all .5s ease;
 }
