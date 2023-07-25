@@ -5,7 +5,7 @@
     position: fixed;
     color: #ccc;
     background-color: #1a89ca;
-    bottom: 1.7rem;
+    bottom: 2rem;
     right: 2rem;
     border-radius: 50%;
     cursor: pointer;
@@ -36,8 +36,6 @@
 @media only screen and (max-width:600px) {
 
     .backToTopButton {
-        width: 50px;
-        height: 50px;
-        bottom: 1rem;
+        scale: 0.75;
     }
 }

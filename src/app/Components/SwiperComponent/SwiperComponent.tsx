@@ -8,37 +8,37 @@ import Image from 'next/image'
 function SwiperComponent() {
   const images = [
     {
-      path: './Images/photo1.jpg',
+      path: './images/photo1.jpg',
       text: 'Çok uzaklara gitmene gerek yok. Biz yanınızdayız!',
       underText:
         'Hayatın koşuşturmacası içinde sağlığınızı ihmal etmeyin. Siz nerede olursanız olun, sağlık ve hizmet konusunda yanınızdayız. Uzman ekibimiz ve uzaktan destek imkanlarımızla size her zaman yardımcı olmaya hazırız. Sağlık sorunlarınız veya sağlıklı yaşam için ihtiyacınız olan her türlü desteği, kolayca erişilebilir şekilde sunuyoruz. Sağlık sizin için önemliyse, sizin için buradayız!',
     },
     {
-      path: './Images/photo2.jpg',
+      path: './images/photo2.jpg',
       text: 'Evinizde hizmet vermeye hazırız!',
       underText:
         'Sağlık ve hizmetin konforunu evinizde yaşamak ister misiniz? Artık sağlık kontrolleri, terapi seansları veya uzman danışmanlık hizmetleri için dışarı çıkmak zorunda değilsiniz. Evinizde hizmet vermeye hazırız! Uzman ekibimiz, gerekli ekipmanlar ve teknolojiyle donatılmış olarak kapınıza kadar gelir ve ihtiyacınız olan hizmetleri güvenli ve rahat bir şekilde sunar. Siz sadece rahatlayın, gerisini bize bırakın.',
     },
     {
-      path: './Images/photo3.jpg',
+      path: './images/photo3.jpg',
       text: 'Glutatyon: Vücudunuzun Güçlü Koruyucusu!',
       underText:
         'Glutatyon, vücudumuz için doğal bir antioksidandır. Serbest radikallerle mücadele ederek hücrelerimizi korur ve yaşlanma sürecini yavaşlatır. Bağışıklık sistemini destekleyerek hastalıklara karşı güçlü bir kalkan oluşturur. Sağlıklı bir yaşam için glutatyon düzeylerini artırmak büyük önem taşır. Beslenme ve yaşam tarzıyla da desteklenebilecek bu mucizevi molekül, vücudunuzun doğal bir savunma mekanizmasıdır.',
     },
     {
-      path: './Images/photo4.jpg',
+      path: './images/photo4.jpg',
       text: 'Kendinizi Yenileyin, PRP ile Gençleşin!',
       underText:
         'PRP (Platelet-Rich Plasma), vücudunuzdaki kanın zenginleştirilmiş bir formudur ve cilt gençleştirmeden saç dökülmesine kadar birçok alanda kullanılır. Kendi kanınızdan elde edilen PRP ile cildinizdeki kolajen üretimini artırabilir, kırışıklıkların azalmasına yardımcı olabilir ve saçlarınızın güçlenmesini sağlayabilirsiniz. Bu doğal ve etkili yöntemle kendinizi yenileyerek gençliğinizi geri kazanabilirsiniz.',
     },
     {
-      path: './Images/photo5.jpg',
+      path: './images/photo5.jpg',
       text: 'Sağlıklı Bir Gelecek İçin Bugünden Başlayın.',
       underText:
         'Sağlıklı bir yaşamın anahtarı, bugünden itibaren atacağınız küçük adımlardır. Sağlıklı beslenme alışkanlıkları edinerek vücudunuzu doğru besinlerle besleyin. Düzenli fiziksel aktiviteyle enerjinizi artırın ve sağlıklı bir kiloda kalın. Stres yönetimi ve uyku düzenine önem vererek zihinsel ve duygusal sağlığınızı güçlendirin. Sigara ve alkol gibi zararlı alışkanlıklardan uzak durun. Hayatınıza sağlık ve mutluluk katmak için bugünden başlamak, geleceğinizi güçlü ve dengeli bir temel üzerine inşa etmenizi sağlar.',
     },
     {
-      path: './Images/photo6.webp',
+      path: './images/photo6.webp',
       text: 'Evde Sağlık Hizmetiyle Hayatınıza Kolaylık Katın!',
       underText:
         'Yoğun günlük koşuşturmacanın içinde sağlık ihtiyaçlarınızı ihmal etmenize gerek yok. Evde sağlık hizmetleriyle sizin için yanınızdayız. Uzman ekibimizle ve uzaktan destek imkanlarımızla size en iyi hizmeti sunmak için buradayız. Sağlığınız bizim önceliğimizdir ve evde sağlık hizmetleriyle hayatınıza kolaylık katmayı amaçlıyoruz.',

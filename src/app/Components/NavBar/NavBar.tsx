@@ -81,12 +81,18 @@ const NavBar = () => {
     }
   }, [])
 
-  const scrollPage = (sectionId: string) => {
+  const scrollPage = (sectionId: string, view:string) => {
     const section = document.getElementById(sectionId)
-    if (section) {
+    if (section && view == 'desktop') {
       const navbarHeight = 180
       const topOffset = section.offsetTop - navbarHeight
       window.scrollTo({ top: topOffset, behavior: 'smooth' })
+    }
+    else if(section && view == 'mobile'){
+      const navbarHeight = 320
+      const topOffset = section.offsetTop - navbarHeight
+      window.scrollTo({ top: topOffset, behavior: 'smooth' })
+
     }
   }
   return (
@@ -123,15 +129,15 @@ const NavBar = () => {
               </svg>
               <span>Anasayfa</span>
             </li>
-            <li onClick={() => scrollPage('servicesSection')}>
+            <li onClick={() => scrollPage('Hizmetlerimiz','desktop')}>
               {' '}
               <span>Hizmetlerimiz</span>
             </li>
-            <li onClick={() => scrollPage('aboutUs')}>
+            <li onClick={() => scrollPage('Hakkımızda','desktop')}>
               {' '}
               <span>Hakkımızda</span>
             </li>
-            <li onClick={() => scrollPage('')}>
+            <li onClick={() => scrollPage('','desktop')}>
               <span>İletişim</span>
             </li>
           </ul>
@@ -149,7 +155,7 @@ const NavBar = () => {
                 <div className="mobileMenu">
                   <ul className="menu">
                     {menuItems.map((item, index) => (
-                      <li key={index} style={{ animationDelay: `${0.5 + index * 0.1}s` }}>
+                      <li onClick={() => scrollPage(item,'mobile')} key={index} style={{ animationDelay: `${0.5 + index * 0.1}s` }}>
                         {item}
                       </li>
                     ))}

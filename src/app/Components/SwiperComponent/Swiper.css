@@ -246,6 +246,9 @@
     .swiperTextDiv p{
         font-size: 20px;
      }
+     .arrows{
+        bottom: 50px;
+     }
     
 }
 

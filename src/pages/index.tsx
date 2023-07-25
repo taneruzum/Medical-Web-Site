@@ -187,7 +187,7 @@ export default function Home() {
             </section>
           </div>
 
-          <div className="aboutUsText" id="aboutUs">
+          <div className="aboutUsText" id="Hakkımızda">
             <h2>Hakkımızda</h2>
             <p>
               <strong>

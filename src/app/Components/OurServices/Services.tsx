@@ -83,7 +83,7 @@ const services = [
 function Services() {
     return (
 
-        <div className='servicesContainer' id='servicesSection'>
+        <div className='servicesContainer' id='Hizmetlerimiz'>
             <h2>
                 Evde Sağlık Hizmetlerimiz
             </h2>
