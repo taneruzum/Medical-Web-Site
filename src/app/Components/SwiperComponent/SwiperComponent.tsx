@@ -53,10 +53,10 @@ function SwiperComponent() {
                 keyboard={{
                     enabled: true,
                 }}
-                // autoplay={{
-                //     delay: 2500,
-                //     disableOnInteraction: false,
-                //   }}
+                autoplay={{
+                    delay: 6000,
+                    disableOnInteraction: false,
+                  }}
                 loop={true}
                 pagination={{
                     clickable: true,
