@@ -187,24 +187,26 @@
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
     padding: 1rem;
     text-align: justify;
+    word-wrap: break-word;
     
 }
 @media only screen and (max-width:1465px) {
     .swiperContent{
         width: 100%;
-        top: 23%;
+        top: 30%;
         left: 0;
         
     }
     .swiperContent1,.swiperContent2,.swiperContent3,.swiperContent4{
-        width: 200px;
-        height: 120px;
+        width: 130px;
+        height: 85px;
     }
     .swiperTextDiv{
         max-width: 100%;
         width: 100%;
-        top: 50%;
+        top: 60%;
         left:0;
+        padding: 0;
     }
     .swiperTextDiv h3{
         text-align: center;
@@ -213,6 +215,15 @@
     .swiperTextDiv p{
         width: 100%;
         text-align: center;
+        font-size: 20px;
+    }
+    .swiperContent1 p,
+    .swiperContent2 p,
+    .swiperContent3 p,
+    .swiperContent4 p {
+    font-size: 11px;
+    
+
     }
     
     
@@ -241,7 +252,7 @@
 
 @media only screen and (max-width:480px) {
     .swiperTextDiv{
-        min-width: 480px;
+        min-width: 360px;
         top: 50%;
         padding: 0.5rem;
         
