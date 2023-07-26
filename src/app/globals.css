@@ -27,6 +27,8 @@ body {
 } */
 a{
   list-style: none;
+  color: white;
+  text-decoration: none;
 }
 .globalContentContainer{
   width: 100%;

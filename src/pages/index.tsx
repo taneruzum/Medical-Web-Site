@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div className="mainPageContainer">
       <Head>
-        <link rel="icon" href="/images/AcmedCareLogo.jpg" sizes="32x32" />
+        <link rel="icon" href="./images/AcmedCareLogo.jpg" sizes="32x32" />
         <meta charSet="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
