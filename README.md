@@ -2,17 +2,18 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+ ->İmportant!! First of all, after cloning the files, type npm i or npm install in the terminal. This will automatically install the required modules. 
 First, run the development server:
 
 ```bash
-npm run dev
+Recomended-> npm run dev
 # or
 yarn dev
 # or
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-> Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
