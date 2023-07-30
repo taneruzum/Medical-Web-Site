@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 
  ->İmportant!! First of all, after cloning the files, type npm i or npm install in the terminal. This will automatically install the required modules. 
-First, run the development server:
+After, write in the terminal; npm run dev
 
 ```bash
 Recomended-> npm run dev
