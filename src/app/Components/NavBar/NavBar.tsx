@@ -99,13 +99,13 @@ const NavBar = () => {
     <div className="navbarContainer">
       <div className="navbarTop">
         <div className="navbarTopContent">
-          <span title='Aramak için tıkla'> <a href="tel:+905348725735">(+90)534 872 57 35 </a></span>
-          <span>İstanbul / Ataşehir</span>
+          <span title='Aramak için tıkla'> <a href="tel:+905348725735">(+xx)xxxxxxxxxx</a></span>
+          <span>xxxxxxxxxxxxxxxx</span>
         </div>
         <div className="navbarTopSocial">
           <figure className='icons'>
-            <a title='İnstagram Sayfası' href="https://www.instagram.com/acmedcare/?hl=tr" target="_blank" rel="noopener"><img src="/images/instagram.png" alt="Instagram Logo" /></a>
-            <a title='Whatsapp İletişim' href="https://wa.me/905348725735" target="_blank" rel="noopener"><img src="/images/icons8-whatsapp.svg" alt="WhatsApp Logo"/></a>
+            <a title='İnstagram Sayfası' href="#" target="_blank" rel="noopener"><img src="/images/instagram.png" alt="Instagram Logo" /></a>
+            <a title='Whatsapp İletişim' href="#" target="_blank" rel="noopener"><img src="/images/icons8-whatsapp.svg" alt="WhatsApp Logo"/></a>
           </figure>
         </div>
       </div>

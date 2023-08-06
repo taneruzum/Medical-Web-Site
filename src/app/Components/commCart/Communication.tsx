@@ -97,13 +97,13 @@ const Communication = () => {
           </div>
           <div className="whatsappBubble">
             <strong>AcmedCare Evde Sağlık Hizmeti</strong> <br />
-                AcmedCare | +90 534 872 57 35
+                AcmedCare | +xxxxxxxxxxxxxxxx
             <br />
             Detaylı bilgi için bu numaradan doktorunuza ulaşabilirsiniz.
           </div>
 
           
-            <button type="button"><a href="https://wa.me/905348725735" target="_blank" rel="noopener">WhatsApp ile ulaşmak için tıkla</a></button>
+            <button type="button"><a href="#" target="_blank" rel="noopener">WhatsApp ile ulaşmak için tıkla</a></button>
           
         </div>
       </div>

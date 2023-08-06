@@ -14,6 +14,10 @@ import Head from 'next/head'
 import Services from '@/app/Components/OurServices/Services'
 import Image from 'next/image'
 
+
+
+/* "This website is a personal website. Therefore, specific things like keywords and some contents have been removed."*/
+
 const EnjeksiyonSvg = () => {}
 export default function Home() {
   return (
@@ -24,13 +28,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="keywords"
-          content="evde sağlık hizmeti, evde bakım telefon, evde sağlık telefon, evde saglik hizmeti, ataşehir , ataşehir sağlık hizmeti, evde saglik, yaşlılara evde sağlık hizmeti, evde bakım sağlık hizmetleri, glutatyon, glutatyon fiyat, glutatyon takviyesi, doping serum, prp uygulaması, prp tedavisi"
+          content=""  
         ></meta>
+
 
         <title>AcmedCare | Evde Sağlık Hizmeti</title>
         <meta
           name="description"
-          content="İstanbul Ataşehir'de evde sağlık hizmeti ve uzman ekibimizle sağlığınızı güvence altına alın. PRP ve glutatyon gibi hizmetlerimize de göz at."
+          content=""
         />
       </Head>
       <div className="body">
@@ -121,7 +126,7 @@ export default function Home() {
             <p>
               Sağlık ve refahınız bizim önceliğimizdir. Siz ve sevdikleriniz için en iyi evde sağlık hizmetini almak
               istiyorsanız bize ulaşın!
-              <strong> AcmedCare | Telefon: 0534 872 57 35</strong>{' '}
+              <strong> AcmedCare | Telefon: xxxxxxxxx</strong>{' '}
             </p>
           </div>
           <Services />
